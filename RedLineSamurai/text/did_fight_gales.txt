@@ -1,0 +1,133 @@
+n \n\n\n\nI had no real excuse.
+n \nI did get into a fight with Gales, regardless the reason.
+n \nHow immature I was...
+n \nWhat the hell can I say?
+nvl clear
+cR "I don't love her.{w=1}  I have no idea why she-"
+Sc "Liar!{w=1}  I know how much time you've been spending with her!"
+cR "What? But-"
+hide sheilettaWorried sheilettaPissed
+//show sheilettaPissed x=30 y=0
+Sc "You, Gales and Naomi.{w=1}  You make quite the trio.{w=1}  Looks like...I've been replaced!"
+hide sheilettaPissed
+n \n\n\n\nShe stormed out.
+n \nAnger, shown to cover a much greater sadness.
+n \nI now know the source of her distress.
+n \nHas it been five years already?
+//             ###############14 minutes 36 seconds
+nvl clear
+scene station_inside
+n \nI had to go after her.
+n \nShe hadn't forgotten the memories of our time back at Gamma Base, and neither did I.
+n \nMyself and Gales were as green as the grass on Eigmon Prime's second largest space colony.
+n \nWe were assigned as members of Sheiletta's squad, before she had yet to achieve the rank of Captain.
+n \nIt would not be unfair to say we were dysfunctional.
+n \nGales addressing her as 'Her Royal Hardass' never ended well.
+nvl clear
+n \n\n\nBut looking back those really were my fondest memories.
+n \nWe were good friends, even if it looked like we were our greatest enemies.
+n \nAnd when we faced numbers 3 to 20 in a Rebel attack on our nuclear facility, we didn't give them an inch.
+n \nUnder her leadership the squad that got left behind on a training exercise (Gales had insulted the Sergeant) became heroes.
+n \nNow, where the hell is she?
+nvl clear
+n \n\n\n\n\nI followed an unknown set of corridors and through a door I had not seen before.
+n \nThe air seemed heavier and my heart starting racing.
+n \nFor a reason I could not explain, I was tense.
+nvl clear
+scene undergroundBase
+n \n\n\n\nI entered a large room with what looked to be a massive power generator located in the middle.
+n \nI spotted some movement in the control room.
+n \nI ran up several flights of stairs, though I couldn't explain my rush.
+n \nUn...{w=1}unmoving bodies littered the floor.
+n \nAt the controls was none other than-
+nvl clear
+show naomi x=30 y=0
+N "Good afternoon Captain."
+cR "What are you doing?!{w=1}  Where's Gales?"
+play naomifight
+N "I just finished setting the charges on the generator.{w=1}  All you Alliance dogs will die in under a half hour!"
+n \n\n\n\nSo Naomi was the traitor after all...
+n \nI regret not bringing my pistol with me.
+n \nIt would seem I'll need to fight her hand-to-hand.
+n \nShe must have guessed my thinking as a wicked smile came to her lips.
+nvl clear
+N "I grew up fighting in the streets, I worked my way into the Resistance as a bodyguard and assassin.{w=1}  I'm afraid I won't go down as easily as Gales."
+cR "You set that up, didn't you?"
+N "Provided me enough time to kill that bitter old man.{w=1}  That fool friend of yours does have his uses."
+hide naomi naomiFurious
+//show naomiFurious x=30 y=0
+N "Or rather, did."
+n \n\n\n\nThat's all I needed to hear.
+n \nI didn't care if she was Head General of the Alliance at this point.
+n \nBut in my haste for vengeance I fell right into her trap.
+n \nShe brought her right leg around fast-{w=1}inhumanly fast.
+nvl clear
+n \n\n\n\nI had to be honest with myself here.
+n \nWhen it comes to speed and agility, she's way out of my league.
+n \nThe only way I could beat her is in a battle of brute strength.
+n \nThe way you do that is eliminate distance, making the fight less about striking and more about grappling.
+hpunch
+n \nI blocked with my left arm, but it left a bad sting.
+nvl clear
+n \n\n\n\n\nI took the opportunity to reach around and grab a neck that...wasn't there.
+nvl clear
+N "You'll have to be faster then that!"
+vpunch
+n \n\n\n\ndAh!
+n \nWhere the hell did that knee come from?
+n \nHer left knee just slammed into my chin, leaving me in a daze.
+n \nCurse that woman.
+nvl clear
+n \n\n\n\nThis whole station was going to blow up, and there was nothing I could do about it.
+n \nMy friends, my colleagues and troops...
+n \nMy hopelessness only fueled my anger.
+n \nThis rebel was going to die!
+nvl clear
+hide naomiFurious naomi
+//show naomi x=30 y=0
+N "Careful Rousseau.  Gales wore that same look before he died.{w=1}  I actually invited the idiot to join us, but I underestimated his loyalty to you."
+cR "Die scum!"
+n \n\n\nI wasn't thinking clearly.
+n \nI ran at her blindly.
+n \nIf I could just reach her, I would rip her to shreds.
+n \nA shame it didn't work out that way.
+n \nIn under a second Naomi had jumped backwards onto the control panel only to swiftly launch herself at me.
+nvl clear
+n \n\n\nBefore I knew what happened, her legs were wrapped tightly around my neck.
+n \nShe was squeezing the life away from me.
+n \nI flailed around wildly, but it was no use.
+nvl clear
+hide naomi naomiFurious
+//show naomiFurious x=30 y=0
+N "I won't let the Alliance shed anymore innocent blood for their unquenchable desire for power!"
+n \n\n\n\nI couldn't have replied if I wanted to.
+n \nI was no longer fighting back at her.
+n \nMy body was fixated only on the desire to breathe.
+n \nDarkness threatened to overtake me.
+n \nThis is my end.
+nvl clear
+sfx baller
+t "BANG!"{w=1}
+sfx baller
+t "      BANG!"
+sfx baller
+t "             BANG!"
+hide naomiFurious
+n \n\n\n\n\nThe legs around me ceased their cruel vise around my neck.
+n \nI took in a huge breath that my body so deathly needed.
+n \nI turned to discover my savior.
+nvl clear
+play remorse
+show sheilettaWorried x=30 y=0
+Sc "Rousseau!{w=1}  Rousseau please!!"
+n \n\n\n\nI was wrapped in a teary embrace.
+n \nSheiletta had saved my life.
+n \nI could never thank her enough.
+n \nThe beeping at the controls brought me back into reality.
+nvl clear
+cR "The generator!{w=1}  She's rigged it to explode!"
+Sc "I've already sent the engineering team to handle it.{w=1}  We've shut down this generator with the override just in case."
+cR "Commander I..."
+Sc "Gales...{w=1}alerted us of her intentions before he..."
+cR "Why...{w=1}why did it have to end like this?"
+jump ending.txt

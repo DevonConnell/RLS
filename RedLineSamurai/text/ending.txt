@@ -1,0 +1,29 @@
+hide gales
+hide galesDrunk2
+hide galesWorried
+hide sheiletta
+hide sheilettaDrunk
+hide sheilettaPissed
+hide sheilettaWorried
+hide naomi
+hide naomiFurious
+hide naomiPissed
+hide naomiWorried
+hide Gale_face
+hide Gale_facePissed
+hide Gale_faceWorried
+hide Naomi_faceWorried
+hide Sheiletta_face
+hide Sheiletta_faceWorried
+scene endscreen
+play Continue_Life
+'Author' "Thanks for playing!  Let's see, you got the...
+if planet_op1Continuation.txt 'Author' Nuclear Option Ending.  Decisions decisions!"
+if planet_op2Continuation.txt 'Author' Wingman Ending.  The happiest ending in my opinion :3"
+if did_fight_gales.txt 'Author' Blonde Martyr Ending.  Only the good die young, I guess."
+if did_not_fight_gales.txt 'Author' Hostage Ending.  I wonder how this will turn out~"  
+if funeral.txt 'Author' Funeral Ending.  Who knew Gales was such an orator?  A rare ending to get, congrats!"
+'Author' "But this is of course not the end of our tale.{w=1}  Shoot for all five of the endings, like a boss.  
+'Author' I call them endings, but the adventures of Rousseau and company have just begun.
+'Author' Look for more adventures in the future at the app marketplace!"
+TheEnd

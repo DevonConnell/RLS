@@ -1,0 +1,30 @@
+nvl clear
+hide naomi
+hide sheilettaPissed
+show gales x=30 y=0
+play Sock_Hop
+c2 "WINGMAN TO THE RESCUE!"
+cR "What the-"
+hpunch
+n \n\n\n\n\nHrgh!
+n \nMy 'best friend' just gave me a hard right hook in the ribs.
+n \nWhat his reasoning was I will never know.
+n \nAll I know was that my vision was fading fast.
+nvl clear
+hide gales
+scene cabin
+Sc "You sure you are alright, Rousseau?"
+N "Of course he is."
+cR "I'm fine, I'm fine.{w=1}  Gales, what were you saying about the 15th?"
+show gales x=30 y=0
+c2 "Yeah uh...{w=1} we're sorta traitors to the vast majority of the known galaxy now."
+c2 "Nothing big really."
+hide gales
+show sheilettaWorried x=30 y=0
+Sc "I...uncovered information regarding inhuman experimenting on the occupants of this planet."
+Sc "After the report of your previous battle and the confirmation of the Progenitor Drive, they ordered me to use nuclear weapons..."
+c2 "Of course good ole Commander told them to go fuck themselves!"
+Sc "...in less vulgar words, yes."
+N "..."
+cR "Good work.{w=1}  It seems we've got our work cut out for us, you three."
+jump ending.txt

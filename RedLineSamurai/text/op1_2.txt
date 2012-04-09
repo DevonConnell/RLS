@@ -1,0 +1,58 @@
+c "It's not going to work, but ok-{w=1}let's give it a shot."
+//play sound "G_ADX_1001.wav" # Roger!
+c2 "Roger!{w=1} My manuevers never fail!"
+hide Gale_face
+scene cockpitCombat
+n That is inaccurate.{w=1}  When paired in partner combat exercises Gales would time and again come up with ridiculous manuevers,{w=1} always with more style then substance.
+n \n\nIt was more to impress chicks with than anything else.
+n \n\nThis is a horrible idea.
+nvl clear
+//play sound "G_ADX_1167.wav" # I pity you
+e "I pity you."
+e "Just going to sit there and let me shoot you, ay?{w=1}  That's fine by me!"
+n Take a seat a let me explain how this stunt works.
+n \nI zig-zag while firing intermittent bursts with my assault rife, while Gale hides in my shadow.
+n \nHe's able to hide because of the g-particles my boosters exhaust, but it's not a sure thing.
+n \nWhen it suits him he takes a shot with his X-6 particle cannon in condensed mode,{w=1} which uses the beams of my assualt rifle as cover.
+nvl clear
+n \nThe particles from the X-6 travel at a rate far faster then my rifle's, making for a surprise attack that will keep the target unbalanced.
+n \n\nThe finisher is even more foolhardy.
+n \nAt full speed I grab on to the enemy mech, spin it around facing Gales,{w=1} and he pummels it the X-6 cannon.
+n \nIn practice it has only added to my maintenance bills.
+nvl clear
+scene cockpit2Space
+c2 "Alright Ross, say it!"
+cR "...do I have to?"
+c2 "Saaaaaaaaaaaaaaaaay it!"
+cR "..."{w=1}
+cR "You who would stand against justice, we are the angels of the black heaven!{w=1}  Prepare to face our holy wrath!"
+c2 "Booyah!"{w=1}
+scene cockpitCombat
+vpunch
+n \n\n...
+hpunch
+n \n...
+vpunch
+n \n...
+n \n\nI can't believe that worked.{w=1}  I'm never going to hear the end of this.
+nvl clear
+show Gale_face x=50 y=174
+//#play sound "G_ADX_0961.wav" # Gotcha!
+//play Babylon
+c2 "DID YOU SEE THAT?!{w=1}  He was all like:"
+hide Gale_face Gale_facePissed
+//show Gale_facePissed x=50 y=174
+'Impersonation' "Hahaha!  I'm a condescending bastard!  Prepare to die!"
+hide Gale_facePissed Gale_face
+//show Gale_face x=50 y=174
+c2 "I don't think so."
+hide Gale_face Gale_faceWorried
+//show Gale_faceWorried x=50 y=174
+'Impersonation' "Oh no!{w=1}  My large ego to compensate for my personal inadequacies has been shattered by your greatness!"
+hide Gale_faceWorried Gale_face
+//show Gale_face x=50 y=174
+c2 "Yeah, I know."
+cR "Okay okay, write your report after we make it to the station.{w=1}  I'm sure the Commander would love to read it."
+c2 "Sheiletta would scold me if I single-handedly brought down the rebellion."
+cR "You might be right."
+jump first_op_done.txt

@@ -1,0 +1,55 @@
+scene black
+n \n\n\n\nAnd then all was dark.
+nvl clear
+play Awaiting_Return
+scene cabin
+n My mind whirled around like a twister, while sharp pains fluttered around my body.
+n \nIn my eyes danced bright colors of reds and blues before deciding on an opaque white.
+n \nSlowly feeling was returning to my body.
+n \nI had to grit my teeth to keep from shouting;{w=1} but my throat was far too parched for that anyway.
+n \nAnd then motion came from the corner of my eye.
+nvl clear
+'Voice' "Don't bother moving."
+n \n\nA woman's voice, but not a gentle one.
+n \nBut there was a bigger issue to address.
+n \nFear started to seep into my mind as I came to the realization.
+n \nThere was only one question I could ask.
+nvl clear
+'Wounded Man' "...who..."
+'Voice' "I said to get some sleep."
+'Wounded Man' "...{w=1}who..."
+'Voice' "What are you trying to say?"
+'Wounded Man' "am...{w=1}I?"
+n \n\nWho am I?
+n \n\nWho am I?
+n \n\nWHO AM I?!
+n \n\n\nWith that question my mind drifted back into a deep sleep.
+nvl clear
+scene black
+'Voice' "..."{w=1}
+n \n\n\n\n\n\n------------------- My mind felt like a black page. -------------------
+nvl clear
+n \nIt was a strange feeling.
+n \nThe unfamiliarity of your own self-
+n \nwas this like an out-of-body experience?
+n \nA man's desire to be sure of himself is a strong one.
+n \nAnd I am afraid that I have lost myself.
+nvl clear
+t Two days later...
+scene cabin
+'Wounded Man' "Like I said before,{w=1} I have no idea what I was doing to end up like this."
+show naomiPissed x=30 y=0
+'Voice' "But you know the name of this planet, right?"
+'Wounded Man' "Azorus IV.  I'm not sure why..."
+'Voice' *sigh* {w=1}"...don't think I'll let my guard down..."
+//" *sigh* {w}{size=-7}...don't think I'll let my guard down...{/size}"
+n \n I had gotten the feeling that this woman did not care much for me.
+n \nHad I hurt her in the past?
+n \nWas I close to her?
+n \n...it is no wonder she is always at such unease.
+nvl clear
+'Voice' "Make up a name."
+'Wounded Man' "What?"{w=1}
+'Voice' "I said make up a name for yourself!"
+menu 1 "uh...maybe..."
+planet_op1Continuation.txt "Wait! What's your name?"

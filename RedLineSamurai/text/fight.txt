@@ -1,0 +1,34 @@
+n \n\n\n\nYes.  Fighting is what I was born for.
+n \nI grabbed the Gales's leg after I took that hit.
+n \nAn off-balanced opponent was an easy opponent.
+n \nI gave a sharp left jab to his face.
+n \nLittle bastard dodged me!
+nvl clear
+c2 "About time you showed your true colors, killer."
+cR "Shut the hell up!"
+hpunch
+n \n\n\nThe brawl continue as he traded blow for blow.
+n \nI once said that there were no winners in war.
+n \nI didn't believe fighting had winners.
+n \nBut I wasn't trying to win.
+n \nWhat was I trying to do?
+nvl clear
+c2 "Think you can take Naomi from me?{w=1}  You're too much of a wimp!"
+cR "Perhaps you should have taken martial combat training more seriously!"
+n \n\n\nGales let his guard down and I managed myself behind him,{w=1} then I locked his left arm behind his head.
+n \nThis was the setup for a particular type of suplex.
+n \nI had decided to show off.
+n \nWith a great heave I lifted Gales from the ground till he was nearly parallel to the ground.
+vpunch
+n \nHis head hit the floor hard as we fell.
+n \nThat is called a Crossface Chickenwing Suplex.
+nvl clear
+hide galesDrunk2
+'Troops' "RUUU-SOOO!!!{w=1}  RUUU-SOOO!!!{w=1}  RUUU-SOOO!!!"
+n \n\n\n\n\nThe cheers of the spectators roared.
+scene spaceBedroom2
+play Awaiting_Return
+n \nI was so tired, somehow I managed to find myself back in my bed and fell asleep in half a moment.
+nvl clear
+//$did_fight=True
+jump after_fight.txt

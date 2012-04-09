@@ -1,0 +1,61 @@
+c "Enemy unit at 500 meters.  {w=1}Gorgis, follow me to intercept!"
+'Gorgis' "Sir yes sir!"
+n \n\n\nA lone MCU had caught my attention earlier.  My troops have joked that I don't know the meaning of the word chivalry.
+n \nI've been told before that my art of combat doesn't have any honor to it.
+n \nHonor has only gotten good men killed, from my experience.
+nvl clear
+n We were over the enemy mobile suit's location in a matter of seconds.  
+n \nBoth mine and Gorgis's unit was equipped with the newgrade vibroblades.
+n \nThe two of us were unarguably the best close-quarters fighters in the platoon.
+nvl clear
+sfx laser_rifle
+n \nThe (B-class?) model sprayed a bright array of charged particle beams.
+n \nI couldn't help but notice that the rifle was as powerful as any assualt weapon my squad possessed.
+nvl clear
+n \nThankfully the same could not be said about the pilot.
+n \nThe uncontrolled bursts were inaccurate.
+n \nThey had left the suit far too open for a flank attack from two of the best models currently in operation.
+n \nUnited Human Alliance Mark III's.  {w=1}I didn't need to give the order.
+//#play sound "vibro_blade.wav"
+nvl clear
+n \n\n\n\n We tore it to pieces.
+nvl clear
+c "Good job, now let's move on to-"
+play Plans_in_Motion
+sfx heavy_pew
+hpunch 
+n ...?{w=1}
+sfx heavy_pew
+hpunch 
+n ...!{w=1}
+sfx heavy_pew
+hpunch
+'Gorgis' "Ca..captain..."
+//# play explosion
+n \n\nThree high density bursts came from 3000 meters, each of which cut straight through the hull of Gorgis's Mark III.
+n \n\nIt wasn't the first time I lost a brother-in-arms, but I'd sooner leave the force then grow accustomed to it.
+n \n\nGorgis, a good friend and a better soldier...
+nvl clear
+//play sound "G_ADX_1170.wav"
+'Enemy' "Haha!  I knew that stupid recruit would make for wonderful bait!{w=1}  This is just too easy." 
+scene cockpit2Space
+c "YOU BASTARD!"
+sfx laser_rifle
+n \n\nThe sniper unit was too far away for a direct approach.  No, a straight-on charge would be suicide.
+n \nWhat I needed was-
+nvl clear
+show Gale_face x=50 y=174
+c2 "Hey 'capt, looks like you could use some help over there."
+c "I told you to support Kaemon's squad!"
+c2 "Turns out Miss Miria is in a worse mood then usual.{w=1}  She said she'd rather have her cooling system fry then have me watching her back."
+c "..."{w=1}
+c2 *sigh*{w=1} "Such a nice back, too."
+c "..."{w=1}
+sfx heavy_pew
+c "The enemy MCU is equipped with a GTX high particle density sniper rifle.{w=1}  Commence tactical manuever V-21."
+sfx heavy_pew
+t Misses, but barely.
+c2 "Sorry Rousseau but I've got a better plan.{w=1}  We'll try that stunt we did in practice last month."
+menu 2 What should I do?
+op1_1.txt My plan
+op1_2.txt Gales's 'plan'

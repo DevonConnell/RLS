@@ -1,0 +1,428 @@
+'Wounded Man' "Hey hold on a second, you haven't told me your name yet."
+'Voice' "..."{w=1}
+'Wounded Man' "..."{w=1}
+N "My name is Naomi."
+'Wounded Man' "Naomi...{w=1}that's a pretty name."
+t Ah-oh.{w=1}  I think I angered her.
+hide naomiPissed naomiFurious
+//show naomiFurious x=30 y=0
+N "Do you think I care what you think of my name?!{w=1}  Who the hell do you think you are?"
+'Wounded Man' "Thats what I want to know!"
+hide naomiFurious naomiPissed
+//show naomiPissed x=30 y=0
+N "..."
+'Wounded Man' "I don't know any good names,{w=1} but you saved me so...{w=1} I think you have the right to call me whatever you want."
+hide naomiPissed naomi
+//show naomi x=30 y=0
+t Why did I regret those words as soon as they left my mouth?
+t It sure didn't help seeing that evil grin on her face.
+N "Kujero.{w=1}  That's a fitting name."
+K "Kujero...{w=1}well, it works for me."
+hide naomi
+n \n\nA couple more days passed while Naomi continued asking me a bunch of things I didn't know.
+n \nHer mood only worsened as the talks went on.
+n \nAnd she could get quite angry.
+nvl clear
+show naomiPissed x=30 y=0
+N "What do you mean you don't know about the Alliance?!"
+K "I said I'm sorry.{w=1}  What are they?"
+n \n\nShe stood silent with hate filled eyes.
+n \nBut behind the hate, I think there was a deep sadness.
+n \nThe passion of this woman was immense.
+n \nWhatever this Alliance was, it affected her deeply.
+nvl clear
+hide naomiPissed naomiFurious
+//show naomiFurious x=30 y=0
+N "They're a group of devils who don't give a damn about anything but power.{w=1}  They have their hands around the whole galaxy, crushing everyone who gets in their way!"
+N "They take away your freedoms and liberties, treating you like dirt and making you live like a mindless slave."
+N "They have no sense of humanity!{w=1}  What they have done in the name of peace is nothing short of butchery!"
+n \n\n\n\n\nShe yelled at me like I was a demon.
+n \nI was starting to think I was one.
+nvl clear
+scene black
+hide naomiFurious
+n \n\n\nIt was three more days before I was able to walk and move around without killing myself.
+n \nJust laying in bed was enough to make you sick,{w=1} and when you have a caretaker like Naomi...
+n \nSpeaking of Naomi, I was able to get her to agree to let me outside when I was able to do so.
+n \nI believe ill rumors from the townspeople had more to do with it then anything else though.
+nvl clear
+scene cabin
+play Continue_Life
+show naomiPissed x=30 y=0
+K "I told you I am fine,{w=1} please continue your daily duties without my interference."
+N "..."
+N "Whatever.{w=1}  If those wounds open up and you bleed to death its your own fault."
+K "It is appreciated."
+N "And don't think I won't still be keeping my eye on you."
+K "Creepy, but it is appreciated."
+hide naomiPissed
+scene town
+n \nThough I had questioned Naomi about the current surrounding area, her explanations were brief and I wished to see for myself.
+n \nIt was a humble village.
+n \nTime seemed to move slower here,{w=1} people went about without hurry, without care.
+n \nIt was so...{w=1}foreign.
+nvl clear
+'Villager' "You must be Kujero.{w=1}  I'm surprised Naomi let you out of her sight!{w=1}  You must be talented at dealing with headstrong women, young man."
+K "Well I guess I'm just a natural negotiator, then."
+'Villager' "Haha, is that so?{w=1}  Well the wife is callin', have a nice day."
+K "And a good day to you too sir."
+n \nThat was only one of several conversations I've had with the occupants of Jesk.
+n \nTheir friendliness and openness, it felt kind of strange to me.
+n \nThat they would treat a complete stranger such as myself with such kindness was beyond me.
+n \nIt almost felt as if everyone was part of a big family here.
+nvl clear
+//n \n\nI am not, however,{w=1} unobservant enough to remain ignorant of a sharp feeling of sadness and gloom in the air.
+//n \nSomething bad had happened, something dear was lost-{w=1}that was the feeling.
+//n \nPerhaps I can ask Naomi about it.
+//nvl clear
+'Little Girl' "Hey mister!{w=1}  Your Naomi's boooyfriend, aren't cha?"
+K "Wha-what?!"{w=1}
+'Another Little Girl' "Look he's blushing!{w=1}  You know it's truuue~"
+K "Gha?!"{w=1}
+n \n\nSurrounded by girls half my height from all sides.
+n \nTeased to no end.
+n \nWithout mercy.
+n \nWere I uninjured, I'd have been able to outpace them if I ran.
+n \nBut as it was...{w=1}submission was the only option.
+nvl clear
+n \n\nA grander tour of such a modest village there's never been.
+n \nMy pockets were filled with 'souvenirs' as I was escorted back to Naomi's for lunch.
+n \nI don't remember how many offers for meals I had politely refused.
+n \nWhile I tried my best to hide it from the kids, I was in a lot of pain.
+nvl clear
+K "Well, looks like we're here.{w=1}  I really appreciate all of you giving me such a nice tour."
+'Little Girl' "Don't mention it!{w=1}  We were testing you!"
+K "Oh?{w=1}  Testing me for what?"
+'Little Girl' "To see if you were worthy of Naomi!{w=1}  She's so awesome and cool, you know!"
+K "She is pretty cool, isn't she?{w=1}...so did I pass?"
+'Little Girl Group' "Teeheeheehee!{w=1}  Bye Kuji!~~"
+n \n\nI wasn't quite sure what to make of that.
+n \nBut I don't think I'll be doing anymore exploring today.
+n \nMan it felt good to be back home.
+n \nShould I be worried that I now call this place home?
+nvl clear
+scene cabin
+show naomi x=30 y=0
+N "Popular fellow."
+K "Haha, well I guess I am."
+K "Everyone is so nice here.{w=1}  I wasn't expecting such a warm welcome."
+N "Seeing a new face around these parts is big news.{w=1}  I'm surprised Louise and Amalia aren't throwing their daughters at you yet."
+K "I...{w=1}don't understand.{w=1}  Why would they do that?"
+hide naomi naomiPissed
+//show naomiPissed x=30 y=0
+N *sigh* {w=1}"You might have been too dull to notice, but most of the men here are gone.{w=1}  They're-"
+n \n\n\nNaomi bit her lip and started eating.{w=1}  It didn't seem like an issue I ought to press her on.
+n \nEven I am wise enough to know that.
+hide naomiPissed
+nvl clear
+//#nightime in cabin?
+n \n\n\nNights were always so warm and peaceful here.
+n \nNaomi granted me leave to sit out on the porch.
+n \nI only noticed it now, but this cabin was in pretty shabby shape.
+n \nIt was located on the outskirts of town, and I get the feeling Naomi isn't the biggest socialite aroun-
+nvl clear
+play Variation_on_Egmont
+'Villager' "Naomi!{w=1}  It's Ayswic!{w=1}  We've got word of a chemical bombing!"
+t Naomi nearly broke down the door and my back when she came sprinting out of the room.
+show naomiFurious x=30 y=0
+N "Damn it all!"
+K "Wha-what's going on?"
+N "Shut up and stay here!"
+K "I refuse.  I'm coming with you."
+hide naomiFurious
+scene black
+n \n\nI had no idea what was going on, but I knew a dangerous situation when I heard one.
+n \nI was given a gasmask and a ride to the nearby village of Ayswic.
+n \nI...{w=1}wasn't expecting what I saw.
+nvl clear
+scene town2
+n \nBodies lay on the ground everywhere within a dirt brown mist.
+n \nFamilies huddled together, unmoving.
+n \nThe corpses of children laid out on the street...
+n \nI...{w=1}this...
+nvl clear
+n \nIt took all my resolve to examine the motionless older woman who was at my feet.
+n \nThe cause of death...
+n \nInflammation of the area surrounding the esophagus, slowing choking the victim to death.
+n \nMy body started to shake in terror.
+n \nBut to my surprise some of those bodies were actually moving, trying their hardest to breathe, to live.
+n \nThere was no time to mess around.
+nvl clear
+n \n\n\n\n\nThe others were still in shock at the scene.
+n \nAnd then it all seemed so natural.
+nvl clear
+K "Get the first van across to the opposite side of town.{w=1}  Take the second and third to the other ends."
+K "In your medical kits should be Artherex that will reduce the swelling.{w=1}  Use concentrated oxygen tanks and if worse comes to worse..."
+K "cut open a hole to the windpipe."
+n \n\n\nThe village helpers didn't move a muscle.
+n \nWhere they not listening to a word I said?!
+nvl clear
+K "Do it now!{w=1}  That's an order!"
+//   # 13 MINUTES
+n \n\n\n\nWe were able to save some, but for nearly half of them it was too late.
+n \nDeath is always cruelest to children...
+n \nThose who survived each had a loved one who didn't.
+n \nI had forgotten my exhaustion after I finished the last of the grave digging.
+n \nWe've been there almost an entire day.
+nvl clear
+show naomiWorried x=30 y=0
+N "Kujero, I think we should head back.{w=1}  There isn't anything more we can do here."
+K "...alright.  Let's go home."
+N "Hey Kujero.{w=1}  Without your help we'd have a lot more graves to dig."
+n \n\n\n\nI think I've gotten used to Naomi.
+n \nShe's not good at showing her appreciation, but that doesn't mean she isn't thankful.
+n \nI get the feeling she's just not accustomed to anyone helping her.
+n \nHer independence was admirable, but kinda sad.
+nvl clear
+hide naomiWorried
+scene cabin
+n \n\n\n\n\nThe next day I voiced the decision I made not long ago.
+n \nI made it the same time I saw a pair of children suffocate before my eyes.
+n \nI will never let such a thing happen again.
+nvl clear
+show naomiWorried x=30 y=0
+K "Naomi, I want to join the Resistance and put an end to this."
+N "Y-you want to join us?{w=1}  I mean the Resistance?"
+K "Yes.{w=1}  You said this United Human Alliance is responsible for the attack on Ayswic, correct?"
+hide naomiWorried naomiPissed
+//show naomiPissed x=30 y=0
+N "They are!  And this isn't the first chemical bombing that's happened!"
+K "Damn them.{w=1}  Naomi do you know anybody I could talk to about joining?"
+n \n\n\n\n\nThere was a long silence.
+n \nNaomi looked as though she was deciding something difficult.
+n \nCould she not trust me?
+nvl clear
+N "Alright Kujero, walk with me."
+scene forest
+n \n\n\n\nWe walked into the forest behind the cabin.
+n \nI think I remember spotting Naomi heading this way several times before.
+n \nJust what was I getting myself into?
+n \nNaomi stopped suddenly and tossed aside a few fallen branches.
+nvl clear
+K "There's a hatch there?"
+N "It's an underground facility.{w=1}  Helps keep us hidden from Alliance patrols."
+n \n\n\n\nHer gaze on me was suddenly quite sharp.
+n \nAt first I was reluctant, but I climbed down after her.
+n \nNaomi guided me through a series of tunnels until-
+scene undergroundBase
+play tenhut
+n \nwow.
+nvl clear
+hide naomiPissed
+'Villager' "I can't believe it!{w=1}  I didn't think she'd ever let you in, Kujero!"
+'Villager 2' "Hell yeah!{w=1}  It's the hero of Ayswic!"
+n \n\n\n\nI was quickly surrounded by familiar faces.
+n \nThey were all villagers I've ran across over my stay here.
+n \nI guess I really was out of the loop.
+n \nRegardless, let's get started.
+nvl clear
+K "How many suits are operational?{w=1}  What are the known defenses of the Alliance station?"
+N "..."{w=1}
+n \n\n\n\n\nNaomi drifted off to the side as I started making plans with the rest of the Resistance members.
+n \nApparently they had not long ago engaged 14-suit UHA patrol.
+n \nThey thought to take the initiative and ambush them, but failed.
+nvl clear
+show naomiWorried x=30 y=0
+'Villager' "It was that damn captain of there's.{w=1}  If he hadn't charged into the Goliath while it was charging, Naomi could've wasted all of them!"
+N "...we don't know that for sure."
+K "This Goliath.{w=1}  May I see it?"
+scene progenitor
+N "This is a Progen-"
+K "Progenitor Drive?!{w=1}  It's been perfected?"
+hide naomiWorried naomi
+//show naomi x=30 y=0
+N "...yes.{w=1} You're smarter then I thought."
+K "Well, more knowledgable anyway.{w=1}  What can you tell me about the energy output?"
+//////////////////////////////////////////////////////////////////////// CAN ADD MORE, LIKE TALK TO SCIENTIST
+n \n\n\n\nWe went into a long discussion about the details of the Progenitor System.
+n \nFrom the data they had on the UHA space station, a direct shot from the Goliath could take it down.
+n \nIt was poorly defended for a military outpost, the only worry is the patrol stationed there.
+n \nFrom what I gather their captain is talented, albeit reckless.
+nvl clear
+K "We should attack at night two days from now.{w=1}  That should give us just enough time to recharge the Goliath."
+hide naomi naomiWorried
+//show naomiWorried x=30 y=0
+N "But why then?  And what about the rest of the suits?"
+K "We cannot win a direct battle, that much has...{w=1}what I mean to say is that surprise is our only chance at victory.
+K  That day is the Founder's Day celebration for all Alliance military personnel."
+K "And that night during the festivities will be the opportune time to strike."
+N "...that's..."
+'Villager' "Great!  With Kujero we can finally kick some serious Alliance ass!"
+hide naomiWorried
+n \n\n\n\nI rarely left the underground base during those next two days.
+n \nStrategizing for these kind of scenarios seemed so natural.
+n \nPerhaps this is who I was, or at least, this is where I should be.
+n \nI really felt useful here, and I had underestimated the importance of feeling appreciated.
+n \nNaomi did not look well, however.
+nvl clear
+show naomiWorried x=30 y=0
+K "Is everything okay, Naomi?"
+N "There's no problem.{w=1}  The way you order these guys around you might as well call yourself Captain."
+K "I'm sorry.{w=1}  I might be overstepping my bounds."
+N "No, the Resistance needs you now.{w=1}  I can see hope in their eyes, and that's something I haven't seen in a long time."
+K "Naomi, may I ask you something?"
+N "S-sure."
+K "I owe you for so much: saving my life, letting me live in your cabin, feeding me.{w=1}  Not to mention putting up with my cluelessness."
+N "Don't mention it."
+//N "Hey, don't worry about it."
+K "But I have a final request."
+N "Yeah?"
+K "I want to be the one to pull the trigger."
+n \n\n\n\nIt wasn't about glory.
+n \nI'm not so selfish as to wish for such a thing.
+n \nAnd it wasn't really about vengeance, either.
+n \nSure I hated the Alliance for what they did, but Naomi had her entire family taken away because of them.
+n \nIt was because...
+nvl clear
+hide naomiWorried naomiPissed
+//show naomiPissed x=30 y=0
+N "Sure, whatever you big...{w=1}big idiot!{w=1} You think I can't handle taking the lives of all those people?!"
+hide naomiPissed naomiFurious
+//show naomiFurious x=30 y=0
+N "Don't pretend to know me, you selfish piece of-"
+hide naomiFurious naomiPissed
+//show naomiPissed x=30 y=0
+n \n\n\n\n\nOthers arrived and cut her fury short.
+n \nI was probably being selfish.
+n \nNo, I definitely was.
+n \nI wanted to carry the burden of killing hundreds of people in place of her.{w=1}  I wanted her hands to stay clean while mine stained red.
+n \n...{w=1}
+hide naomiPissed
+nvl clear
+////////////////////////ADD MORE HERE
+play Continue_Life
+scene forest
+n \n\nI needed to take a step outside.
+n \nThe operation would take place tonight.
+n \nI was a bit uptight, but surprisingly calm.
+n \nEverything should work.  The plan was certainly simple enough.
+nvl clear
+n \n\n\nI'll admit I don't know this Alliance very well.
+n \nAnd I'm not naive enough to think there aren't any innocent people up in that station.
+n \nBut what about the men, women and children who were bombed with chemical weapons?
+n \nWaking up in the middle of the night, not able to catch your breath...
+nvl clear
+n \n\nWhile my mind still keeps my past away from me, my present feels real enough.
+n \nThe crisp, cool air and crickets chirping.
+n \nThe hope-filled faces of the townspeople as I pass them by.
+n \nAnd there was her.
+nvl clear
+hpunch
+show naomi x=30 y=0
+N "Can't have our secret weapon dozing off on us before the mission starts."
+n \n\nThe redhead tossed me a cold drink and sat beside me on a fallen log.
+n \nShe seemed to have gotten over our argument.
+n \nTo be safe, best not to try and get her angry again.
+nvl cear
+K "Thanks...{w=1}but I assure you, the Progenitor Drive is fully functional for operations."
+N "I was talking about you, stupid."
+K "O-oh."{w=1}
+n \n\n\nMy cheeks started to heat up.
+n \nI really shouldn't be getting embarassed over something like this.
+n \nBut I was really happy.
+nvl clear
+N "After this is all over..."
+K "Hm?"{w=1}
+N "I mean, what do you plan on doing next?"
+K "To be honest I haven't really thought about it.{w=1}  Likely the Rebellion will travel elsewhere."
+K "The Progenitor Drive is our biggest asset and only real trump card against them.
+hide naomi naomiWorried
+//show naomiWorried x=30 y=0
+K We'd have to find some engineers sworn to our cause...{w=1}but mass production wouldn't be impossible."
+hide naomiWorried naomi
+//show naomi x=30 y=0
+N "A soldier through-and-through.{w=1}  I guess I shouldn't have expected anything less."
+K "I'm sorry, it seems like all I really know how to do is fight.
+K I suspect I was some ruthless murderer in the past...{w=1}probably better to have forgotten myself."
+hide naomi naomiPissed
+//show naomiPissed x=30 y=0
+N "That's wrong and you know it!"
+N "Murderers don't spend their days playing with kids or saving bombing victims, stupid!"
+n \n\n\nDarn, I made her mad again.
+n \nI'm beginning to think we're just not compatible.
+n \nBut in all honesty I felt myself drawn to her more then ever.
+n \nI had to change the subject.
+K "You give me too much credit.{w=1}  I know you care about the people here even more then I do."
+N "They can all go to hell for all I care."
+K "Why do you say things you don't mean?"
+N "..."{w=1}
+K "Want to know a secret?"
+N "..."{w=1}
+K "Well I could get in a lot of trouble for telling you this, so..."
+N "Spill it, Kujero."
+K "I don't know if I should..."
+vpunch
+N "Tell me!  I'm serious!"
+K "Okay okay!{w=1}  Did you know that most of the girls in this town look up to you?"
+N "That's BS and you know it."
+K "It's true, you're an idol to them.{w=1}  They love how independent and strong you are."
+hide naomiPissed
+show naomiWorried x=-60 y=0
+K "You follow you own rules and don't let anyone get in your way."
+K "They keep telling me how they wish they could be as cool as Naomi."
+N "I...{w=1}that's..."
+hide naomiWorried
+nvl clear
+n \n\n\nShe ran away?
+n \nI never saw her run so fast before.
+n \nHere I was trying to cheer her up.
+n \nWhy is it I always seem to make things worse?
+nvl clear
+n \n\n\n\nAnd before I knew it, it was time.
+nvl clear
+////////////////////////
+//hide naomi
+scene station
+play naomifight
+n \n\n\n\nSo this was the orbital station.
+scene cockpitStation
+n \nI sat inside the Goliath with relative ease.
+n \nThough this machine was quite unorthodox, it functioned roughly the same way as any other suit.
+n \nOnly myself and half a dozen MCUs made the approach.
+n \nIt was all we had, but if everything went according to plan they wouldn't need to lift a finger.
+n \nWe got within firing range without meeting any resistance.
+nvl clear
+K "I am preparing to fire the Progenitor Drive."
+t -private communication line open-
+//#show image naomi face 
+show Naomi_faceWorried x=50 y=174
+N "Kujero, wait!"
+K "What is it Naomi?  Have you spotted anything?"
+N "I...can't let you go through with this without knowing.{w=1}  Look in the glove compartment in front of you."
+n \n\n\n\n\nI was puzzled, but looked in the compartment anyway.
+n \nInside was...my badge.
+n \nThat's right, I'm Captain Rousseau of the 15th Angelus 'Angels' Division.
+n \nAnd...{w=1}I'm about to blow up all my fellow soldiers and friends.
+n \nMy God.
+nvl clear
+cR "I...you...{w=1}you knew all this time?!"
+N "I found that badge on you when I spotted you in the woods.{w=1}  I was planning on interrogating you but..."
+cR "But I had lost my memory.{w=1}  Why didn't you kill me?"
+N "Because I..."
+cR "I'm an enemy, and yet you gave me permission to use the Rebellion's most powerful weapon."
+N "I..."{w=1}
+cR "If you would have kept this secret I...I wouldn't even have to think about it."
+N "Dammit Kujero! I-"
+cR "My name is Rousseau."
+n \n\n\n\n\nThe station finally showed signs of being alerted to our presence.
+n \nIt would not be long before the enemy was on our position.
+n \nWait, are they my enemy?
+n \nI...just don't know anymore.
+nvl clear
+N "Rousseau, I-"
+cR "Why did you...Naomi, why did you do this?"
+N "Because I lo-like you, alright?!{w=1}  I couldn't stand by and watch you do this, not...{w=1}not like that."
+cR "You would risk everything, for my sake?"
+N "What, is that something only you get to do?!{w=1}  How did you think I felt when I saw you charging alone on a suicidal attack, trying to buy your troops time to escape?"
+cR "...I..."{w=1}
+N "Rousseau, when I saw you that moment I knew...I knew..."
+cR "Knew what?"
+N "That you are a great man."
+n \n\n\n\n\nI could spot Alliance Mach III's approaching us at top speed.
+n \nGales, Sheiletta, Sheran and all the others...
+n \nBut Naomi and all the innocent people of Azorus...
+n \nThe bombing was an act of evil, but that doesn't mean...I don't have...but I...
+nvl clear
+menu 2 There wasn't anymore time.
+ending.txt "I can't do it."
+ending.txt "I must do it." 

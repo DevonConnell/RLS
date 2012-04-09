@@ -1,0 +1,406 @@
+n \n\n\n\nNo, I couldn't let this get me...
+n \nIf I sleep now, I may never wake.
+n \nI have to...
+nvl clear
+scene black
+n \n\n\n\nAnd then all was dark.
+nvl clear
+play Awaiting_Return
+scene cabin
+n My mind whirled around like a twister, while sharp pains fluttered around my body.
+n \nIn my eyes danced bright colors of reds and blues before deciding on an opaque white.
+n \nSlowly feeling was returning to my body.
+n \nI had to grit my teeth to keep from shouting;{w=1} but my throat was far too parched for that anyway.
+n \nAnd then motion came from the corner of my eye.
+nvl clear
+'Voice' "Don't bother moving."
+n \n\nA woman's voice, but not a gentle one.
+n \nBut there was a bigger issue to address.
+n \nFear started to seep into my mind as I came to the realization.
+n \nThere was only one thing I could say.
+nvl clear
+cR "y-you...{w=1}won't..."
+v "I won't what?"
+cR "...{w=1}get any...-thing...{w=1}from me."
+n \n\nMy throat was threatening to kill me as it refused to speak anymore.
+n \nNo, it was just a needless worry afterall.
+n \nMy life was saved,{w=1} how can I be so ungrateful?
+n \nWith these thoughts my mind drifted back into deep sleep.
+nvl clear
+scene black
+'Voice' "We'll see about that, Alliance dog."
+n \n\nMy savior was a fiery red-haired young woman with bright green eyes.
+n \nEven after several more days that's all I know.
+n \nWhile I answered her questions as best I could, she was far less accommodating.
+nvl clear
+scene cabin
+show naomiPissed x=30 y=0
+cR "I already told you that I'm a transporter pilot heading back from Eigmon Prime.{w=1}  I got caught up in some MCU firefight and must have been shot down here."
+'Voice' "I see."{w=1}
+cR "Have you seen any military models around here?{w=1}  Is this village safe?"
+'Voice' "Oh, I've never seen one of those before."
+cR "That's a relief.  They're quite dangerous."
+'Voice' "I bet."{w=1}
+'Villager' "Naomi!  Aren't you going to help cook for the big festival tonight?"
+N "...Alright!{w=1} *curses* {w=1}Don't think of leaving."
+hide naomiPissed
+n \n\nHer name was Naomi, then.
+n \nWhy didn't she want me to leave?
+n \nOh, it was because I was still too wounded and she's worried about me.
+n \nYes, that must be it.
+n \n...{w=1}
+nvl clear
+play Ghostpocalypse_7_Master
+show naomiFurious x=30 y=0
+n \n\n\nWhen Naomi came storming through the door, I won't deny it.
+n \nI was scared.
+n \nThe questions I wanted to ask had died in my throat.
+n \nW-what was she holding?!
+nvl clear
+cR "Uh-h...{w=1}what's that for?"
+t A sharp pair of emeralds glared at me as Naomi filled a syringe with a strange orange liquid.
+N "A little something for the pain, Captain."
+cR "Oh I see.{w=1}  Wait-"
+hpunch
+n \n\nIt was too late.
+n \nNaomi jumped on top of me with a pounce and rammed the needle right into the side of my neck.
+n \nIt hurt like hell!
+hide naomiFurious naomi
+//show naomi x=30 y=0
+n \nWas...{w=1}she laughing?{w=1}  Damn her.
+n \nThis was...a truth serum.
+nvl clear
+cR "I'll die before I tell you anything, rebel!"
+N "Hahaha!{w=1}  I am going to enjoy killing you slowly, you Alliance puppet.{w=1}  This is payback for Dad, Mom, Kujero and all the other innocents you've murdered!"
+cR "I've only killed traitors who threatened the peace and happiness-"
+vpunch
+cR "Argh!"{w=1}
+n \n\n\n\nThe wind in my lungs left me.
+n \nShe was able to put me down with a single shoulder jab...
+n \n...just who was I dealing with?
+nvl clear
+hide naomi naomiPissed
+//show naomiPissed x=30 y=0
+N "You have the nerve...now tell me everything you know about the military station orbiting Azorus!"
+cR "All I know is that it's an outpost for basic security operations."
+t That must not have been the answer she was looking for.
+hpunch
+cR "W-arh! Shit!"
+n \n\n\n\n\nA lightning-fast snap kick to my ribs!{w=1}  I held in a cough that tasted of blood.
+nvl clear
+hide naomiPissed naomiFurious
+//show naomiFurious x=30 y=0
+N "I want all tactical information on your squad,{w=1} about those bastards that killed my friends!"
+cR "My squad...{w=1}is the very best group of soldiers I've ever had the honor to fight alongside.{w=1}  I would never, never betray them."
+N "Wrong Answer!"
+vpunch
+n \n\n\n\nBa-bam!{w=1}  Snap!
+n \nThat was me hitting the wall, hitting the ground, and something breaking.
+nvl clear
+hide naomiFurious naomiPissed
+//show naomiPissed x=30 y=0
+N "A transporter pilot my ass!{w=1}  How do you explain this, Captain?"
+n \n\n\nShe dropped an Alliance captain's badge in front of my face.
+n \nSo that's how she knew who I was.
+n \nI reached out to hold it.
+n \nSo many memories, so many faces.
+nvl clear
+N "What's with all those names etched on the back, anyway?"
+cR "Ereo, Nindas, Muarla, Lyle,{w=1} Addero, Sihno, Varbert,{w=1} Mance, Jerwas, Stephpan, and Lucious."
+cR "These are the names of my friends who died under my command."
+N "...I see."
+cR "And there are more names that must be added.{w=1}  You aren't the only one who has lost friends in war."
+N "..."{w=1}
+N "You were in that suit, weren't you?{w=1}  The one that charged the Goliath?"
+cR "I was.{w=1}  I acted in a way that would insure the safety of my troops."
+N "So what?{w=1}  You think you're some kind of martyr?!"
+cR "It wasn't only my duty, it was a privilege."
+hide naomiPissed naomiFurious
+//show naomiFurious x=30 y=0
+hpunch
+N "YOU IDIOT!!{w=1}  You selfish, self-righteous piece of trash you make me sick!{w=1}  You don't even stop to think about how anyone else feels!"
+N "Killing yourself and thinking it's some damn privilege...{w=1}do you think the ones who love you care about that?!"
+t I got the feeling that she wasn't yelling at me, but at someone else.
+t I was an outlet for something buried deep inside this woman.
+N "You're too fixated on being a damn hero!"
+hpunch
+n \n\n\n\n\nCrack!
+n \nNaomi's foot made contact with my jaw for devastating effect.
+nvl clear
+n \nMy face hit the floor which was oddly wet.
+n \nIn a painful daze I reasoned that it was a puddle of my own blood.
+n \nThe drug was blurring my senses-
+n \ngetting the crap beaten out of me didn't help either.
+n \nI was rescued by the sound of fireworks from outside.
+stop music
+nvl clear
+hide naomiFurious
+n \n\n\n\nThe festival had begun.
+n \nNaomi left me without another word.
+n \nGod I love festivals.
+nvl clear
+scene town
+n \n\n\n\n\n------- At the festival -------
+nvl clear
+'Villager' "Hey,{w=1} what's that in the sky?"
+'Another Villager' "Fireworks of course!"
+'Villager' "No-{w=1}those shadows over there!"
+show naomiPissed x=30 y=0
+N "Mechanized units?!"
+'Voice' "Yeehaw!{w=1}  Reckon yall havin' a hoedown without me!{w=1}  Come on boys lets show em how we partay!"
+'Villager' "It can't be..."
+play Plans_in_Motion
+'Another Villager' "Go-Goros,{w=1} the bandit king!"
+N "Shit!"{w=1}
+hide naomiPissed
+scene cabin
+n \n\nI was blinking in and out of consciousness.
+n \nThere was no telling how long I was on the floor,
+n \nbut when I discovered those yells and screams in my head-
+n \nwhere actually coming from outside,
+n \nI couldn't stop myself.
+nvl clear
+scene town
+'Goros' "Yeehaw!{w=1}  Oi Lenny, bring me that blonde one over there.{w=1}  We're gonna to have some fun together!"
+'Lenny' "Hehe! Ye sir!"
+'Villager' "I won't let you touch her, you filthy bastards!"
+nv\n\n\n\nThe girl's father gave a straight punch that landed solidly into the henchman's face.
+'Goros' "Gawhawhawhaw!"
+sfx baller
+n \n\n\n\nBAM!{w=1}
+sfx baller
+n BAM!{w=1}
+vpunch
+n \n\nThe father's body hit the ground with a thud.
+n \nThe cries of his family filled the air.
+nvl clear
+'Lenny' "That'll teach the little shit."
+'Goros' "Oh, you poor little girl.{w=1}  Sorry we killed your daddy.{w=1}  I'll make you forget all about it!{w=1}  Hawhawhaw!"
+n \n\n\nLenny grabbed the sobbing daughter who was in too much despair to resist.
+n \n\nFear and hopelessness had draped over the entire village of Jesk as the rowdy bandit gang went rampant.
+nvl clear
+'Lenny' "I love it when they cry!{w=1}  Haha-"
+hpunch
+'Lenny' "ArGh!"{w=1}
+show naomiPissed x=30 y=0
+n \n\n\nNaomi came out of nowhere with a spinning roundhouse kick that tossed the bandit like a rag doll.
+n \nHe wasn't getting up soon.
+nvl clear
+'Goros' "Grab that one boys!{w=1}  Oi!  Get outta my way old man!"
+n \n\n\nA (trying hard to be unassuming) heavily cloaked figure quickly limped away from the scene.
+n \n He left a trail of blood in his retreat.
+n \nNaomi however was pinned by five thugs that were being less then gentle.
+nvl clear
+hide naomiPissed naomiFurious
+//show naomiFurious x=30 y=0
+'Goros' "I think I know this bitch.{w=1}  Naomi ain't it?"
+N "Burn in hell!"
+'Goros' "I still owe you one for what you did to my suit last time."
+cR "You mean this one?"
+'Goros' "What in the hell?!"
+hide naomiFurious naomiPissed
+//show naomiPissed x=30 y=0
+n \n\n\nI had managed to sneak into an MCU without notice.
+n \nWhile I was far from being an actor, I had managed to keep my cover.
+n \nI wanted to blow that monster to pieces but couldn't risk all the civilians.
+n \nSo I had to run and hope they'd follow.
+n \nThey did.
+nvl clear
+hide naomiPissed
+play naomifight
+scene attack
+'Goros' "Who the hell do you think you are punk?"
+cR "Captain Rousseau of the 15th Angelus Division."
+'Goros' "You're shittin' me!{w=1}  The UHA said this was my territory!"
+cR "What are you talking about?{w=1}  You're an enemy to the Alliance!"
+'Goros' "Hell I am.{w=1}  I get a paycheck from ol' Drussel for pillaging these backworld dirt towns!"
+n \n\n\n\nNo, General Drussel would never!
+n \nThere had been talk of similar instances in other fringe sectors...
+n \n"Such rumors were treason to the Alliance"
+n \nThats...{w=1}what we were told.
+nvl clear
+cR "The Alliance was created to bring peace and safety to all humans.{w=1}  I will defeat all those who bring terror and suffering upon the innocent."
+cR "Prepare for battle."
+//play sound "G_ADX_1801.wav"
+'Goros' "I'll show you what battle is!"
+scene cockpit2Ground
+n \n\n\n\nThere were three, no four enemy units coming in fast.
+n \nThe MCU I commandeered was the leader's, as I suspected it to be a superior model.
+n \nI had not imagined the cockpit would smell so bad.
+n \nBut this wasn't the time for complaints.
+nvl clear
+scene forest2
+'Badguy' "Gotcha!"
+n \n\n\n\nAn MCU leaped from a grouping of trees at my flank.
+n \nJust as predicted.
+sfx heavy_pews
+n \nLaying on my back I unloaded plasma rifle rounds as he flew over.
+n \nIt became a metal corpse instantly.
+nvl clear
+'Goros' "Now git 'em!"
+n \n\n\n\n\nThese bandits were surprisingly better coordinated than I thought.
+n \nThere movements reminded me too much of UHA combat training.
+n \nWhile this gave me an edge, why would they have studied our form?
+nvl clear
+//play sound "G_ADX_1798.wav"
+scene attack
+'Badguy' "Dang!  We just about had that damn mobile unit!"
+n \n\n\n\nWell he wasn't lying.
+n \nIf I hadn't rolled away when I did I would've been crushed.
+n \nWhat are they doing now?
+n \nImpossible!{w=1}  Are these suits even capable of that?
+nvl clear
+'Goros' "Had about enough of you!"
+n \n\nA 'jetstream'.
+n \nRadical technology deemed too harmful and uncontrollable for practical use.
+n \nI don't think specialists even use it.
+n \nThe three remaining units emitted a faint blue light.
+n \nThose lights flickered and grew, spinning and joining into a tornado of a lightshow.
+nvl clear
+n \n\nAble to strike at the speed of light, there was no way to avoid it.
+n \nMy only chance was...
+nvl clear
+'Goros' "Alright boys, this punk is toast!"
+n \n\nIgnition.
+n \nIt was not unlike when I charged that giant rebel MCU back in space.
+n \nA prism of light, so beautiful it hurts the eyes.
+scene mechsmoke
+n \nNow!
+n \nThe exhaust gas came spewing out to wrap me in a foggy mist.
+n \nA good pilot releases the buildup after every operation.
+nvl clear
+n \n\nLucky for me the owner was far from good.
+nvl clear
+n \n\n\n\n\nThe jetstream dissipated into the mist while I darted straight for my foe.
+nvl clear
+//play sound "G_ADX_1797.wav"
+scene kill
+'Goros' "Huh?  I can't figure out how that fellow got through our jetstream attack!"
+cR "I have no tolerance for those who prey on the weak."
+sfx heavy_pew
+sfx heavy_pew
+sfx heavy_pew
+n \n\n\n\n\nBOOM.
+n \nThe other two promptly fled.
+n \nIt was over?
+nvl clear
+scene town
+play Continue_Life
+n \n\n\n\nMy body remembered its tiredness and sores from that little 'chat' I had with Naomi.
+n \nI don't remember much about what happened after I returned but I spotted smiles.
+n \nIt was for them I am fighting for.
+n \nThis is something every soldier needs to be reminded of.
+nvl clear
+////////////////////
+N "Rousseau!"{w=1}
+show naomiWorried x=30 y=0
+scene cockpit2Ground
+n \n\n\nMy red-haired torturer appeared inside the cockpit in a flash.
+n \nI was too tired to reprimand myself for not having locked the bay door.
+n \nShe hurried in to capture me yet again...{w=1}I should never have returned.
+n \nHm?!{w=1}
+nvl clear
+cR "Wha-wa"
+n \n\nHer lips and mine were locked in a passionate kiss.
+n \n\nIt felt so blissfully soft and warm.
+n \n\nEverything else ceased to matter.
+N "You're so stupid.{w=1}  Risking your life after how I treated you?"
+N "Not to mention the condition you're in!{w=1}  You dumb idiot!"
+hpunch
+cR "It's...really not good practice to...*cough*{w=1} strike an injured man, you know."
+hide naomiWorried
+scene black
+n \n\n\nOur lips touched again.
+n \n\nFor eternity, it felt.
+nvl clear
+scene cabin
+show naomi x=30 y=0
+N "Get your ass out of bed and get dressed!"
+cR *yawn*{w=1}  "Alright, alright.{w=1}  Let's see this romantic overlook you want to take me to so badly."
+hide naomi naomiPissed
+//show naomiPissed x=30 y=0
+N "It's not romantic you..."
+n \n\n\nShe threw my clothes at me and marched outside.
+n \nMessing with Naomi has become a new hobby of mine.
+scene town
+hide naomiPissed naomi
+//show naomi x=30 y=0
+n \n\n\n\nIt has been nearly three months since I crash landed on Azorus IV.
+n \nThis small village has taken me in so warmly.
+n \nI guess you could call me a sort of mayor now or something.
+n \nI have always believed that with a little organization even the most uncoordinated of regiments can bloom into something great.
+n \nExcept my regiments these days consisted of schoolchildren and widows, mostly.
+nvl clear
+hide naomi naomiWorried
+//show naomiWorried x=30 y=0
+'Villager' "Rousseau!  Two strangers with weapons just arrived!"
+cR "Tell the others to execute order 2A.{w=1}  What can you tell me about them?"
+'Villager' "They...were asking for you sir."
+cR "...?"{w=1}
+n \n\n\n\n\nI rushed to the location the villager had spotted the intruders.
+n \nNaomi was following me, and I had just noticed we were holding hands.
+n \nI guess we've gotten pretty close these days...
+n \nAhem.{w=1}
+nvl clear
+show gales x=140 y=0
+c2 "Aha!{w=1}  There's that son of a gun now!"
+////maybe make it x=0 y=0?
+show sheilettaWorried x=-110 y=0
+Sc "Rousseau?!!{w=1}  I'm so happy you're-"
+play Plans_in_Motion
+hide sheilettaWorried sheiletta
+//show sheiletta x=-110 y=0
+hide gales galesWorried
+//show galesWorried x=140 y=0
+hide naomiWorried naomiPissed
+//show naomiPissed x=30 y=0
+n \n\n\n\nThe tension must have came quickly or I just wasn't paying attention.
+n \nThings got unnervingly quiet.
+n \nI was made uneasy, but I wasn't sure why.
+n \nGales came closer and whispered.
+nvl clear
+hide naomiPissed
+hide sheiletta
+hide galesWorried
+show gales x=30 y=0
+c2 "Uh Rousseau, might want to stop with the hand-holding the hot redhead.{w=1}  Just a thought."
+n \n\n\n\n\nDah?!
+n \nI had completely forgotten that I was holding Naomi's hand.
+n \nI quickly released my hold.
+n \nBut she had tightened her's.
+nvl clear
+hide gales
+show sheilettaPissed x=-70 y=0
+show naomiFurious x=130 y=0
+N "I will never let you Alliance scum lay a hand on him!"
+Sc "Get your filthy rebel hands off of Rousseau this instant!"
+n \n\n\n\nI've never seen Sheiletta or Naomi this angry before.
+n \nWell, Sheiletta anyway.
+n \nCan't we all just be happy we're together again?
+n \nWhy can't life ever be that simple?
+nvl clear
+N "Filthy?{w=1}  You rich inbred bitch!"
+Sc "Dirty cheap whore!"
+N "Why you!"{w=1}
+cR "Calm down you two!{w=1}  How about we solve this matter in a civilized fashion?"
+n \n\n\n\n\nTwo pairs of eyes told me to jump off a cliff.
+n \nI can't fight these kinds of battles.
+n \nAh, it seems they've reached a consensus.
+nvl clear
+hide naomiFurious naomi
+//show naomi x=130 y=0
+hide sheilettaPissed sheiletta
+//show sheiletta x=-70 y=0
+Sc "Rousseau, we've decided to allow you the choice to return with us or stay with this repulsive girl in this third-class world."
+N "Yes dear Rousseau, what does my lover desire?"
+hide sheiletta sheilettaPissed
+//show sheilettaPissed x=-70 y=0
+n \n\n\n\nIt was a damn good thing Gales had already disarmed the Commander of her firearm.
+n \nDamn good.
+n \nWhile Sheiletta was physically shaking with rage, she kept her tongue and waited for my answer.
+n \nNaomi wasn't much different.
+n \nI...had to make a choice between them.
+nvl clear
+menu 2 But who?
+planet_op2Continuation.txt Return with Sheiletta
+planet_op2Continuation.txt Stay with Naomi

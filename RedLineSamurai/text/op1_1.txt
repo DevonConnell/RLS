@@ -1,0 +1,33 @@
+cR "V-21.  That's an order soldier."
+//play sound "G_ADX_0998.wav" #You gotta be kidding
+c2 "Jeez, don't get your panties in a twist. V-21 it is."
+hide Gale_face
+scene cockpitCombat
+n There were maneuvers for this kind of situation.
+n \nFighting against a long distance target with a heavy weapon -Gales- and melee focused -Me- pair called for the V-21.
+n \nJust like in the simulations.
+nvl clear
+//# use some sound files
+//play sound "G_ADX_1175.wav" # you underestimate me
+e "You underestimate me!"
+e "Alliance dogs are all the same.{w=1}  Did you not think I had the entire combat procedure handbook memorized?"
+e "It's helped me kill dozens of the UHA's clueless patrols!"
+cR "What-"
+vpunch
+show Gale_facePissed x=50 y=174
+c2 "It's a feint!"
+hide Gale_facePissed
+n \n\nI had taken the bait like a fool.
+n \nThe enemy MCU acted as if it were out of ammunition, and I broke pattern to engage.
+n \nI'm such an idiot!{w=1}  He got me right in the upper torso and nearly took my suit's right arm off.
+nvl clear
+sfx heavy_pews
+//play Babylon
+cR "I owe you one, Gales."
+show Gale_face x=50 y=174
+c2 "Twas nothing.{w=1}  He left his guard down trying to put the nail in your coffin, captain."
+cR "I'll have to have the Commander up your pay."
+c2 "Sheiletta?{w=1}  Last time I asked for a pay increase...{w=1}and something else...{w=1}she nearly had me court-martialed!"
+cR "I remember talking her out of it."
+//$is_hurt=True
+jump first_op_done.txt

@@ -1,0 +1,29 @@
+n At this rate...I won't make it.{w=1}  My suit's damaged armor from that sniper is impeding my booster's throughput.
+n I need to...
+nvl clear
+t -exterior armor ejected-
+scene cockpit2Space
+n \n\n2000 meters.  Gale should have left the battlefield at this point.{w=1}  The high density particles are jamming my radar so I can only hope the others are safe.
+n \n1000 meters.  I realize I was wrong about the monster's size.{w=1}  It was easily four times as large as me.  Just thinking of piloting that-
+n \n500 meters-what am I thinking?{w=1}  I don't even have an attack plan yet!
+n \nDamn it!
+nvl clear
+vpunch
+t In the end I think I just rammed the machine at top speed.{w=1}  I don't know.
+t But this white light, was this from the suit or...
+scene forest
+play With_the_Sea
+//#n"\n{w=3}"
+'Voice' "I'm not really any good at speeches, but I did want to say this.  
+'Voice' I want you all to know here and now that Captain Rousseau isn't just some name for the records.
+'Voice' He's my buddy darnit, my old pal who'd put up with all the crud I put him through,{w=1} all the jokes and goofing off I did.
+'Voice' He risked his ass for me a hundred times without a word, and this time..."
+'Voice' "This time he said his goodbye, saving not only my own life but the life of the entire 15th.{w=1}  We weren't just his troops, we were his friends, his comrades."
+'Voice' "I think I can speak for all of us when I say that it has been my greatest honor to have fought and served beside him."
+'Voice' "His sacrifice-{w=1}no, he wouldn't want me to call it that.{w=1}  He'd scold me and tell me he was just doing his duty."
+show galesWorried x=30 y=0
+c2 "Well buddy, I am sure going to miss you."
+hide galesWorried
+jump ending.txt
+//$ renpy.pause(5)
+//return

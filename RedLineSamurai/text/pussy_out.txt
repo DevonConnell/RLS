@@ -1,0 +1,90 @@
+n \n\n\nNo, I'm better then this.
+n \nGales is drunk, and whatever he thought was just a misunderstanding.
+n \nWhat would it show to my soldiers if I gave into my emotions here?
+n \nI wouldn't be able to look them in the eye.
+hpunch
+n SLAM!
+n   Blocked a straight punch to my gut, still painful.
+nvl clear
+c2 "Going to pussy out on me now, are yahh?"
+cR "Kaemon, Arec, restrain him.{w=1}  Obviously he has had too much to drink."
+n \n\n\n\nTwo members of the crowd roused from their stupor to restrain Gales.
+hide galesDrunk2
+n \nHe was none to happy about it.
+n \nThankfully he passed out shortly thereafter.
+n \nI...have to get out of here.
+nvl clear
+scene dockingbay
+n \n\n\n\nI thought I heard something in the hangar bay.
+n \nReason enough to go there.
+play Awaiting_Return
+n \nAs I approached I realized it was a woman crying.
+n \nI ran to find her on the floor surrounded by empty beer bottles.
+nvl clear
+show sheilettaDrunk x=30 y=0
+cR "Co-Commander!"{w=1}
+Sc "I just.{w=1}  I ju-*hiccup*ust wantedd..."
+cR "You'll catch a cold if you stay out here.{w=1}  I'm taking you back to your room."
+n \n\n\n\n\n\nLending Sheiletta my shoulder we made our way towards her quarters.
+nvl clear
+///
+scene station_inside
+n \nThe Angelus Mobile Combat Units were among the finest the UHA had to offer.
+n \nAnd I'm not talking about just the equipment.
+n \nWhile our equipment is high-quality, it's still far behind that of the Specialists.
+n \nIt's our leadership and communication that sets us apart.
+nvl clear
+n \nI can take some credit for the tactical prowess of the 15th, but we're just a single squad.
+n \nSheiletta is the one giving the Angels the strategic orders.
+n \nThe difference in a tactical mind like mine and a strategic mind like hers...
+n \nIt was that of a lake and an ocean.
+nvl clear
+n \nI was worried about her.
+n \nIt had been over a year since I saw her last, but I've never imagined her in such a state.
+n \nInstinct told me something more was at work here then I was currently aware of.
+n \nBut intuition told me there was nothing I could probably do.
+///
+nvl clear
+Sc "So sorrrey.  Rousssseau.{w=1}  Deserved medal.  Stole gah-*hiccup*lory.{w=1}  Rousseau!"
+n \n\nI could only make out bits and pieces of what she was saying.
+n \nShe's talking about that incident at training camp.
+n \nThe two of us and Gales held off a terrorist attempt to obtain over a dozen nuclear weapons.
+n \nSheiletta...
+nvl clear
+n \n\nIt did jumpstart her career.
+n \nHarsh critics will say it's because of her father's position as General.
+n \nThose fools didn't know just what she was capable of.
+n \nThe Angelus Sector held the uprising when it came from underneath us.
+nvl clear
+n \n\nThe top brass had already cut their losses, to them the sector was expendable.
+n \nBut Sheiletta didn't even hesitate.
+n \nUnder her guidance Angelus is now regarded as one of the safest sectors in UHA space.
+n \nI will admit it's hard to tell from her right this moment..
+Sc "That...that bitch!{w=1}  I'll, I'll..."
+n \n\n\n\nShe started dozing off when we reached her door.
+n \nI apologized to the powers above as I frisked her for the keycard.
+n \nSweat dropped from my brow as I found myself in a rather compromising position.
+hpunch
+n \nWHERE IS THAT KEY?!
+hpunch
+nvl clear
+scene spaceBedroom
+n \n\nFinally!
+n \nWhew.{w=1}  Never would have lived that down if a member of my squad saw me.
+n \nGales alone would be unbearable.
+n \nMoreso then he already is, I should say.
+nvl clear
+hide sheilettaDrunk
+n \n\n\n\nI laid her gently on her bed, and pulled the sheets over her.
+nvl clear
+cR "Goodnight, Commander."
+n \n\n\nIt's a sappy line I know.
+n \nBut she really did look like an angel as she slept.
+n \nFitting, the troops refer to her as the 'Queen of Angels'.
+nvl clear
+scene spaceBedroom2
+n \n\n\n\nAfter laying her to bed I returned to my own quarters.
+n \nIt was not long before I fell into a deep sleep.
+n \nIt had certainly been an eventful day.
+nvl clear
+jump after_fight.txt

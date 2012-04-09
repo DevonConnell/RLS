@@ -1,0 +1,34 @@
+scene space
+play Intended_Force
+//show gales x=50 y=235
+//show sheiletta x=450 y=235
+//show naomi x=850 y=235
+n \n\n\n\n\n"Ca-captain!{w=1}  Enemy MCUs from above!"
+n \n\nMy mind was adrift in the sea of stars,{w=1} but this wistful daydream had just turned into a nightmare.
+nvl clear
+scene cockpit
+n I didn't have to look at the readings to know just how lousy our formation was,{w=1} how badly we were caught off-guard.
+n \nHalf my troops were in energy conservation mode-
+n \n-initializing their weapon systems alone would take 15.4 seconds they couldn't afford.
+n \n\nIn a word, we were screwed.
+//n"\n\n{nw}"
+nvl clear
+t -combat mode initialized-
+scene cockpitCombat
+c "All units close formation and prepare to engage!{w=1}  Don't do anything stupid and we'll all make it out alive!"
+n \n\n\nThe Azorus Sector was supposed to be the quietest zone in Alliance-occupied space...{w=1}how could bandits have amassed this number of combat units?
+n \n\nThis wasn't supposed to be anything more then a routine visit to a secluded outpost.
+nvl clear
+show Gale_face x=50 y=174
+c2 *yawn*
+c2 "We reach the station yet Cap?  I can't wait to see Dugal's face when I tell him the news."
+c "Gales!  Back up Kaemon and Miria's mechs with the X-6 particle cannon.{w=1}  They have four MCUs on their position."
+//play sound "G_ADX_0998.wav"
+//sfx sfx_Rocket_Launcher_Sci_Fi_03
+hide Gale_face Gale_faceWorried
+//show Gale_faceWorried x=50 y=174
+c2 "You gotta be kidding."
+hide Gale_faceWorried
+menu 2 Now what the hell should I do?
+op1.txt No time to waste, engage the enemy!
+op2.txt No, better reaccess the situation.

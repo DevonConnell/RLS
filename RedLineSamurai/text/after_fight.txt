@@ -1,0 +1,126 @@
+n \n\n\n\n\n(Too) early that morning.
+nvl clear
+'Sheran' "Captain Rousseau!  I'm coming in!"
+n \n\n\n\n\nWhat was my chief intelligence officer doing in my room at 5 AM?
+n \nProbably nothing good.
+play CSI
+nvl clear
+cR "Wha...what is it, Sheran?"
+'Sheran' "Sir!  General Dugal has been...{w=1}has been killed sir!"
+n \n\n\n!?
+n \nAn assassination?!
+n \nThe head officer in charge of this base, murdered?
+n \nAnd...
+n \nI was too busy getting into drunken brawls.
+n \nDamn you, Rousseau!
+nvl clear
+scene stationBossRoomDead
+n \n\n\n\n\nI spotted Commander Sheiletta and some of her subordinates outside the General's room.
+n \nI must have been looking rough as I was getting stares from everybody.
+n \nSheiletta especially seemed shocked as her face went bright red.
+nvl clear
+cR "What happened here, Commander?"
+show sheilettaEmbarrassed x=30 y=0
+Sc "Uh I...{w=1}*ahem*{w=1} Captain, please make yourself decent before showing yourself in public."
+n \n\n\n\nSo that's why I felt so cold.
+n \nIn my hurry I forgot to change out of my pajamas.
+n \nThat is, I was only wearing my boxers.
+nvl clear
+cR "My apologies.  But we have a greater issue at hand."
+hide sheilettaEmbarrassed
+n \n\n\nI made my way inside the room.
+n \nThe scent of death was slight, but it was there.
+n \nIt reminded me of Janapor.
+n \nSlumped over in his chair, like he fell asleep reading his book.
+n \nExcept for a dried-red smile across his neck.
+nvl clear
+cR "Damn it.{w=1}  This isn't the work of an amateur."
+show sheiletta x=30 y=0
+Sc "He's a professional.  Left no fingerprints or evidence."
+'Sheran' "Captain, your uniform."
+hide sheiletta sheilettaPissed
+//show sheilettaPissed x=30 y=0
+n \n\n\n\nMy officer was thoughtful enough to bring my clothes.
+n \nAnd all she got in return was a deathly gaze from Sheiletta.
+n \nSheran promptly left after that.
+nvl clear
+hide sheilettaPissed sheilettaWorried
+//show sheilettaWorried x=30 y=0
+Sc "Death on the battlefield is one thing, but this?{w=1}  What's going on, Rousseau?"
+cR "I don't know, but we're going to find out."
+hide sheilettaWorried sheiletta
+//show sheiletta x=30 y=0
+Sc "Gretsford!{w=1}  Raltens!{w=1}  I want this station in lockdown!  Nobody leaves the station for any reason."
+Sc "Shut down all outside communications."
+'Raltens' "But ma'm!  Shutting down-"
+//play sound "G_ADX_1065.wav" #Tell them it's by my order.
+Sc "Tell them its by my order." 
+hide sheiletta
+n \n\n\n\n\nRuthlessly the woman soon had everyone jumping around her.
+n \nBefore I knew it the two of us where going through everyone's background files along with the camera footage.
+n \nI don't usually drink coffee but made today an exception.
+nvl clear
+show sheiletta x=30 y=0
+cR "We...have to consider the members of my company suspects as well.{w=1}  Because the incident occurred shortly after we arrived, it's possible..."
+hide sheiletta sheilettaWorried
+//show sheilettaWorried x=30 y=0
+n \n\n\n\n\nI must have showed a very pained expression as Sheiletta put a comforting hand on my shoulder.
+n \nHer warm expression suited her well, even if it was rarely worn.
+nvl clear
+Sc "I have full faith in you, Rousseau."
+cR "Sheiletta..."
+hide sheilettaWorried
+show naomi x=100 y=0
+show gales x=-90 y=0
+n \n\n\n\n\nGales and Naomi promptly broke the heavy atmosphere.
+nvl clear
+c2 "We're here to help!" 
+if fight.txt c2 "Man I've got this serious headache!"
+hide naomi naomi
+//show naomi x=100 y=0
+N "We've already investigated the security personnel.  All their alibis seem to check out."
+hide naomi
+hide gales galesWorried
+//show galesWorried x=-100 u=0
+show naomiWorried x=-100 y=0
+show sheilettaPissed x=100 y=0
+Sc "GET OUT!  "
+cR "huh?"{w=1}
+c2 "W-What's up?"
+Sc "We haven't found out anything yet, now leave!"
+n \n\n\nThe commander looked furious.
+n \nI had suspected it was directed at Gales, but her eyes locked on the redhead's.
+n \n...it would seem she hadn't forgotten last night's incident.
+n \nBut why would such a little thing cause her to lose her composure like this?
+n \nRegardless, this was not a good situation.
+nvl clear
+hide naomiWorried naomiPissed
+//show naomiWorried x=-100 y=0
+N "Let's go Gales.{w=1}  I don't think we're welcomed here."
+hide naomiPissed
+c2 "Uh...whatever you say babe."
+hide galesWorried
+hide sheilettaPissed
+show sheiletta x=30 y=0
+play Babylon
+n \n\n\n\nThe two quickly left us to an awkward silence.
+n \nI wasn't sure if I should address the issue or let it go.
+n \nThankfully Sheiletta didn't give me time to choose.
+nvl clear
+Sc "Captain, regarding the time of the murder..."
+cR "Y-you said it had yet to be discerned, correct?"
+Sc "That was a lie.{w=1}  I didn't want news of the investigation to spread anymore than it needs to.{w=1}  The killer may be closer then we expect."
+cR "Good idea.  Perhaps it is best I not know, just to be-"
+hide sheiletta sheilettaWorried
+//show sheilettaWorried x=30 y=0
+Sc "Don't be stupid!{w=1}  Rousseau I knew what you were doing when it happened!"
+n \n\n\n\n\nHer words weren't loud, but they had an intensity to them beyond anything I've heard before.
+n \nSeeing her eyes start to water didn't help either.
+n \nIt killed me to see such a strong woman break down.
+nvl clear
+cR "Listen Sheiletta I-"
+Sc "You were kissing that woman!{w=1}  And then I heard you got into a fight with Gales over her!{w=1}  You...you..."
+if fight.txt jump did_fight_gales.txt
+//if pussy_out.txt jump did_not_fight_gales.txt
+jump did_not_fight_gales.txt
+nvl clear

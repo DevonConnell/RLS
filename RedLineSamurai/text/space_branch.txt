@@ -1,0 +1,297 @@
+play Variation_on_Egmont
+n \n\n\nThere was only one reasonable option.
+n \nIf half the stories regarding the theorized Progenitor Drive were true,{w=1} the lives of all my troops were in grave danger.
+n \nThis is a decision a true captain makes.
+nvl clear
+cR "All units retreat!{w=1}  Repeat, disengage and break for the orbital station!"
+'Troops' "Sir yes sir!"
+show Gale_face x=50 y=174
+c2 "That's a no-go Rousseau.{w=1}  My boosters have been jammed for an hour now."
+cR "What?!{w=1}  Why didn't you report this earlier?"
+c2 "Guess I just don't sweat the small stuff.{w=1}  Had a feeling you'd try something stupid if you knew."
+cR "Idiot!  You'll get yourself killed!"
+c2 "Just promise me you'll loosen up a bit, for your own sake buddy."
+cR "Gales!"{w=1}
+hide Gale_face Gale_faceWorried
+//show Gale_faceWorried x=50 y=174
+c2 "Damn if I can't think up a badass enough one-liner."
+hide Gale_faceWorried
+scene white
+vpunch
+hpunch
+n \n\nThe brightest light blinded my eyes.
+n \nIt was as if I was staring into a star.
+n \nMy ears popped and stopped working.
+n \nThe vibrations threatened to disassemble my skeleton.
+n \nNothing but fear and awe came to mind.
+nvl clear
+n \n\n\n\nFear of death,
+n \nAwe of power.
+nvl clear
+scene black
+n \n\nAnd then it was gone.
+n \nI was still alive, still breathing.
+n \nNever have I experienced a more frightening sensation.
+n \nGales!{w=1}
+nvl clear
+scene cockpit2Space
+//show space2 #with dissolve
+cR "Gales!  Gales report!{w=1}  Report dammit!  Report!!!"
+n \n\n\n\n\n\n--------------- unable to establish connection ---------------
+nvl clear
+'Sheran' "..."{w=1}
+scene cockpitCombat
+n \n\nI ripped off my helmet and threw it against the control panel in frustration.
+n \nThat dumbass had to go and get himself killed!
+n \nThere would be no more jokes, no more gags.
+n \nGales was the first and best friend I ever had.
+n \nNow he was just a memory.
+nvl clear
+cR "Sheran!  Status report!"
+n \n\nI grabbed a knife and took off my badge.
+n \nIn ragged rough carvings I started engraving.
+n \nRight up front, in big letters:
+n \nG A L E S
+nvl clear
+show Gale_face x=50 y=174
+play Sock_Hop
+c2 "Don't write me off so fast there, Captain."
+cR " ?!{w=1} Gales!"
+c2 "Let's just say I'm awesome."
+scene cockpit
+n \n\n\nIt wasn't easy to badger the truth from him.
+n \nApparently he had installed an illegal jettison pod modification in his suit which used it's own thruster system.
+n \nGales said he was sleeping with angels.
+n \nI think he's just a lucky bastard.
+nvl clear
+hide Gale_face
+scene cockpitStation
+n \n\nI sat uneasily upon the sight of the UHA Azorus IV orbital base.
+n \nIt was a comparatively small station with limited military functionality.
+n \nIt was more a pit stop for patrols then anything else.
+n \nThough I have to admit my knowledge of the facility is limited.
+nvl clear
+scene dockingbay
+n \n\nAfter exchanging the correct signals we were granted access to the docking bay.
+n \nThere were four less of us then there should have been.
+n \nSix of our units were damaged, two of which would require extensive repair.
+n \nRevenge against the rebels would have to wait.
+nvl clear
+show sheilettaWorried x=30 y=0
+Sc "C-captain Rousseau!{w=1}  You are unharmed!"
+cR "Yes ma'm.{w=1}  I shall have my report written as soon as possible."
+Sc "...I'm sorry.  I promised reinforcements that never came.{w=1}  The suits here all had their batteries drained."
+cR "Sabotage?"
+Sc "I would sooner believe the negligence of the useless ex-chief engineer.{w=1}  But I must take responsibility.  You lost lives out there and it's my fault."
+cR "Commander..."
+n \n\nThe daughter of one of the most esteemed Generals in the UHA.
+n \nHer family was among the wealthiest and powerful in Eigmon Prime.
+n \nAlways trying to prove herself worthy in spite of her birth.
+n \nWhile she's always been kind to me, towards others...
+nvl clear
+hide sheilettaWorried
+show sheiletta x=110 y=0
+show gales x=-80 y=0
+c2 "How's my favorite couple?"
+hide sheiletta sheiletta
+//show sheiletta x=-100 y=0
+Sc "Gales...I hear you lost your suit during combat."
+c2 "Ah-ha.  Yeah, well..."
+//play sound "G_ADX_1081.wav" # how pathetic
+Sc "How pathetic."
+c2 "But enough of that!{w=1}  Us three are getting drunk until Sheiletta here starts complimenting me.  It'll be just like old times!"
+//############# BRANCH??
+cR "I must decline.  I have reports to write and funeral ceremonies to prepare for."
+hide gales galesWorried
+hide sheiletta sheilettaWorried
+//show galesWorried x=100 y=0
+//show sheilettaWorried x=-100 y=0
+n \n\nI didn't intend to spoil the good mood.
+n \nBut something just doesn't feel right about celebrating the deaths of my soldiers.
+n \nMaybe I thought that feeling like shit would honor them.
+n \nMaybe I was just fooling myself.
+nvl clear
+hide sheilettaWorried
+hide galesWorried
+//###DUGAL
+play Babylon
+n \nFirst I had to debrief the Colonel, as protocol dictated.
+n \nWhile Sheiletta was in direct command of our division Dugal was in charge of this base.
+n \nI can't say I know much about the man.
+n \nFrom what I have been able to gather he has a very serious character and a scientific mind.
+nvl clear
+n \n\nIt is a bit odd that one of our military's best biologists would choose to operate a remote station.
+n \nThere's no way the facilities could match those of the Inner Colonies.
+n \nPerhaps he enjoyed the solitude.
+nvl clear
+//scene spaceroom
+n \n\nI pressed the button on his intercom and spoke.
+nvl clear
+cR "Colonel Dugal, Captain Rousseau of the 15th Angelus Division reporting."
+n \n\nA moment of silence.
+n \n\nAnother moment.
+n \n\n...{w=1}
+nvl clear
+'Colonel Dugal' "Come in."
+scene stationBossRoomAlive
+n \nOne would imagine the room of a Colonel's too be relatively sizable.
+n \nAnd Dugal's would have been, had there not been so many books and scientific equipment around.
+n \nMany citizens go their entire lives without reading printed text.
+n \nThe Colonel certainly enjoyed the relics of the past.
+nvl clear
+'Colonel Dugal' "Rousseau...captain are you?{w=1}  You look more like some trash from the Tergis or Janapor Sectors."
+n \nI was accustomed to stern-faced drill sergeants in the past.
+n \nBut this man...{w=1}was in a league of his own.
+n \nThis wasn't the first time a commanding officer looked down upon me because of my heritage.
+n \nLong have I gotten over taking offense to such base remarks.
+nvl clear
+n \n\nStill, it was far from pleasant.
+n \nOlder gentlemen like the Colonel here still held the intolerances the Lucredium Wars birthed.
+n \nI paused to recover my nerve.
+nvl clear
+cR "You are correct in that I am originally from Janapor, sir."
+'Colonel Dugal' "Enough.  What of your report?"
+n \nI started giving out the details of our route and handed him an encrypted data disk from Central Command.
+n \nIt was just standard procedure and consisted primarily of an updated map of unit locations and operations.
+n \nOnly at HQ was the entire plan held, of course.
+n \nYou'd only risk compromising your entire operation if a fringe station such as this were overtaken.
+nvl clear
+cR "Of course the greatest concern is the very present and unexpected Rebel threat."
+cR "My unit just returned from a battle with thirteen advanced Rebellion MCUs."
+'Colonel Dugal' "What of it?"
+n \n\n\nWhat of it?
+nvl clear
+cR "W-well sir, I strongly believe this station to be in great danger."
+cR "Had we not arrived when we did..."
+'Colonel Dugal' "You want some sort of medal?{w=1}  Is that it?"
+n \n\nI was at a loss for words.
+n \n\nLuckily Gales's presence interrupted my thoughts.
+n \n\nI'd need to thank him later.
+nvl clear
+show gales x=30 y=0
+c2 "Yo Dugal, how's my favorite uncle?{w=1}  Up to no good as always, I bet!"
+'Colonel Dugal' "...Gales.{w=1}  One of the reasons I left the Capital was to rid myself of your antics."
+c2 "Ow, harsh as ever I see.{w=1}  Well I come bearing good news!"
+c2 "You're a grandpap!"
+n \n\nGales's mother's sister is married to this man.
+n \nFor someone without any family, it all seemed rather complicated.
+n \nThe two of them were nothing alike, and didn't even share the same blood.
+n \nI guess families can bring even the most different of people together.
+nvl clear
+'Colonel Dugal' "I couldn't care less about that worthless daughter of mine, much less her spawn."
+'Colonel Dugal' "Waste my time again and you'll be put back into the brig, private."
+hide gales
+n \nGales saluted and walked out of the room without another word.
+n \nI guess I was wrong about families bringing people together...
+n \nCan't choose your relatives, I suppose.
+n \nPoor guy.
+n \nI promptly concluded my report and was sent away.
+nvl clear
+play Sock_Hop
+scene station_inside
+//###DUGAL DONE
+hpunch
+n \n\n\n\nLost in my thoughts I didn't notice the person in front of me.
+nvl clear
+show naomiPissed x=30 y=0
+cR "Sorry."
+'Voice' "No, my fault."
+hide naomiPissed naomi
+//show naomi x=30 y=0
+n \n\nA red-haired woman with bright green eyes.
+n \nWith an athletic build and tanktop, I figured her to be a soldier stationed here.
+n \nThere was a strange smell about her, something different.
+n \nSuch a captivating aura.
+nvl clear
+cR "Hm?"{w=1}
+N "I said my name's Naomi.  You're the captain of that MCU division?"
+cR "Yes I am.{w=1}  My name is Rousseau and I am Captain of the 15th Angelus Angels Division."
+N "I hear that you ran into a Rebel ambush of a dozen advanced suits and defeated them handily."
+cR "I don't believe so.  Our ill-preparedness cost the lives of three good men."
+N "You're modest.  Most captains would have lost several times more.{w=1}  I'm a decent pilot myself, and was hoping you'd test me for a position on your team."
+cR "...it is sudden, but I shall see to it.{w=1}  Goodnight, Naomi."
+N "Goodnight Captain."
+hide naomi
+scene dockingbay
+n \n\n\nIt had turned out that she wasn't a decent pilot.
+n \nShe was a great one.
+n \nWhile her methods were crude and untrained, her reactions were as wonderful as her instincts.
+n \nGales also approved of her, but for reasons different then my own.
+nvl clear
+show gales x=30 y=0
+c2 "Total babe!{w=1}  You see her rip those training models to pieces?{w=1}  And how sexy she looked doing it?" *whistles*
+cR "She's certainly talented.  But I'm worried about her background-"
+hide gales
+show gales x=-90 y=0
+show naomi x=100 y=0
+N "Captain!{w=1}  So did I pass?"
+hide gales gales
+//show gales x=-100 y=0
+c2 "Baby you did more then just passed, you ace'd it a hundred times over!"
+cR "Yes.  I do have some questions regarding your background information however.{w=1}  This obviously isn't you first time in an MCU."
+hide naomi naomiWorried
+//show naomiWorried x=100 y=0
+N "I...see."
+hide gales gales
+//show gales x=-100 y=0
+c2 "Aw, who the hell cares about that?{w=1}  The Angels just got a new ace, this calls for a celebration!"
+n \n\n\nI learned long ago that these celebrations of Gales could not be stopped.
+n \nBesides, my troops needed something to smile about.
+n \nWith Naomi we could finish off those rebels once and for all.
+n \nI just wish I knew more about her.
+nvl clear
+hide gales
+scene cantina
+hide naomiWorried
+show naomi x=30 y=0
+N "So Captain, got any family?{w=1}  A special someone back home maybe?"
+n \n\n\n\nGales had wandered on stage to do a drunken karaoke ballad.
+n \nI am unfamiliar with such music in general, but was quite impressed by his ability to hit the high notes.
+nvl clear
+cR "I don't have any family, at least...{w=1}I was born during the Lucredium Wars on Janapor.
+cR "I was lucky enough to escape to an Alliance military base."
+n \n\n\nI had to mentally shake those memories away.
+n \nNaomi had such pretty eyes.
+n \nWhat was I saying again?
+n \nAnd why are we sitting so close?!
+nvl clear
+N "You're not married, I hope?"
+cR "N-no.  My duty prohibits me from settling down."
+N "I see.{w=1}  Then you wouldn't mind?"
+cR "Hm?  Mind what?"
+N "If...we...{w=1}"
+n \n\n\n\nHer lips touched mine.
+n \nI heard a yell and a cry.
+n \nBut for one glorious moment, I could not care.
+n \nReality smothered away{w=1}-only to return in full force.
+nvl clear
+hide naomi
+show galesDrunk2 x=30 y=0
+play naomifight
+hpunch
+c2 "YOU BASTARD!"
+n \n\n\n\nGales gave me one hell of a wakeup call.
+n \nI was lucky my jaw didn't break with that right hook.
+n \nAll I could be was confused.{w=1}  And pissed.
+nvl clear
+cR "Gales?!{w=1}  What the hell is wrong with you?"
+n \n\n\n\nThat look in his eyes.
+n \nWe might have roughed around in the past, but I know when someone wants me dead.
+n \nHe may have been intoxicated, but I could see a soberness in his gaze.
+n \nThe joker was dead serious.
+nvl clear
+c2 "You won't steal her from me!{w=1}  Now die!"
+n \n\n\nI looked for Naomi.{w=1}  Nowhere in sight.
+n \nThe rest of the party had stopped as the two of us became the center spectacle.
+n \nCircled by cheering onlookers.
+n \nThis was all so wrong, but part of me felt exhilarated.
+nvl clear
+vpunch
+n \n\n\n\n\nBAM!
+n \nDammit, I took a hard kick right in my ribs.
+n \nI can't fuck around anymore. 
+//#####################10 minutes 15 seconds
+nvl clear
+menu 2 What should I do?
+fight.txt Kick his ass!
+pussy_out.txt No, this isn't right.

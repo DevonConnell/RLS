@@ -1,0 +1,96 @@
+play The_Whip_Theme_Ext
+scene cockpit2Space
+n \nNo, there was never a question.
+n \nIt wasn't a sure thing that we could escape in time anyway.  This action will best guarantee the safety of my troops.
+n \nAnd what was the duty of the captain if not to keep his troops alive?
+n \nMaybe I just wanted a glorious death...{w=1}forgive me, Sheiletta.
+nvl clear
+scene cockpitCombat
+show Gale_facePissed x=50 y=174
+c2 "Where's my support?!"
+cR "I called off the others, I'm the support."
+//play sound "G_ADX_0995.wav" #You call that support?
+c2 "You call that support?{w=1}  We're dead out here on our own!"
+cR "This is your order: {w=1}cover me until I am within 2000 meters of the target, then retreat to the station."
+c2 "That's real funny."
+cR "This isn't a request, soldier!"
+//play sound "G_ADX_0994.wav" # Idiot you can't do it alone!
+c2 "Idiot, you can't do it al-"
+hide Gale_facePissed
+t -radio transmissions silenced-
+n \nAt full velocity I threw myself into the fray.{w=1}  I bet the rebels didn't know what to make of me as they had begun to retreat.
+n \nI don't have time to worry about them.
+n \n5000 meters.
+n \n4000 meters.  The energy of the large enemy MCU was visible now, and started to vibrate the hull of my suit.
+hpunch
+nvl clear
+scene cockpit2Space
+n \n3000 meters.  A rebel tried to block me but couldn't keep up with my speed.{w=1}  The Mach III truly is a great machine.
+if op1_1.txt jump funeral.txt
+n \n\n2000 meters.  Gales should have left the battlefield at this point.{w=1}  The high density particles are jamming my radar so I can only hope the others are safe.
+n \n1000 meters.  I realize I was wrong about the monster's size.{w=1}  It was easily four times as large as me.  Just thinking of piloting that-
+nvl clear
+n \n\n\n500 meters-what am I thinking?{w=1}  I don't even have an attack plan yet!
+n \nDamn it!
+nvl clear
+vpunch
+t In the end I think I just rammed the machine at top speed.{w=1}  I don't know.
+t But this white light, was this from the suit or...
+play Skye_Cuillin
+scene black
+n I had lost all feeling, my senses left me.{w=1}  Nothing assured me of myself, my existence, but these thoughts.
+n \nAnd so I frantically thought as if my life depended on it,{w=1} because I believe it really did.
+n \nJanapor.  The jungles of East Durez Region 119.{w=1}  Where I once called home many lifetimes ago, it felt.
+n \nI never took the time to reminisce on my childhood years, and it wasn't by accident.
+nvl clear
+scene flashback
+n \nThe Lucredium Wars was what they called it.
+n \nMen, women and children slaughtered without remorse for the precious metal.{w=1}  None of us even knew what Lucredium was used for, just it's immense value.
+n \nBandits, raiders, gangs...{w=1}they drove us all into a life of fear.
+n \nA harsh lesson for a boy is that some men have no hearts.
+nvl clear
+n Without the help of a man I deemed to be my father,{w=1} I would've died in a half-dug trench with a bullet in my head.
+n \nLooking back I really was digging my own grave.
+n \nFather worked for no one but himself, and he took me under his wing.
+n \nFor the first time in my life I felt truly safe, without fear.
+n \nI fell in love with that feeling.
+nvl clear
+n He got me a ride off that accursed moon and into an Alliance military base.
+n \nI was so selfish I had forgotten to thank him for everything.
+n \nI guess the idea of being in wonderful space with all those stars was all I could think of.
+n \nAnd then I never saw Father again.
+n \nThis is my greatest regret.
+nvl clear
+//#play music "08 - Eternity and Infinity are in these Hands.flac"
+stop music
+n \n\n\n\nI then started to regain feeling, which quickly turned into a bad thing.{w=1}  My eyes showed white and then purple, until finally focusing.
+nvl clear
+scene forest
+n It had turned out that I was no longer in outerspace.
+n \nThe most reasonable conclusion is that I crash-landed on Azorus IV.
+n \nMy pilot door was already open,{w=1} the power in my suit was gone.
+n \nNow just to unclip the harness-
+vpunch
+n \nAh!
+nvl clear
+t Ouch!  In my stupor I hadn't realized there was a 15-foot drop from the pilotseat to the ground.{w=1}  If the screws in my brain weren't loose before, they are now.
+n \n\nI took many short breaths to help with circulation.
+n \nOnly then did I notice all the blood on my clothes.
+n \nI was bleeding,{w=1} and badly.
+nvl clear
+cR "Gahh...{w=1}I survived all-{w=1} *cough* -{w=1}that to die like this?"
+n \nMy legs wouldn't hold me, so I crawled.
+n \nI was reduced to a baby, no I envied even them.
+n \nI thought there was a clearing over there,{w=1} so I fumbled around in that general direction.
+n \nAn eternity passed as I kept crawling.
+n \nMy head felt even lighter as my vision blurred.
+nvl clear
+n I felt my mind start to slip.
+n \nThis was beyond light-headedness
+n \nIt was like the painful sensation of tripping and banging your head against hard cement,{w=1} over and over.
+nvl clear
+n \n\n\nThis pain was driving me insane.{w=1}  If only I could sleep, if only there was some refuge from this hell.
+nvl clear
+menu 2 And then darkness came and threatened to overtake me.
+planet_op1.txt Let it
+planet_op2.txt Refuse it

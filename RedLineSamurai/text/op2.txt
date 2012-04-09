@@ -1,0 +1,83 @@
+c "Sheran, scan and report!  Everyone prevent their MCUs from engaging our offline suits!{w=1}  We play defense now, no exceptions."
+'Sheran' "Scanning complete Captain Rousseau.{w=1}  The enemy totals ten B-class midrange models, two modified B-A blades,{w=1} and one Mobile Combat Unit of unidentified make."'
+n My fears were confirmed.  It seemed far too strange for bandits to have evaded our sensors until they were right on top of us,{w=1} to have approached our position so quickly.
+n \nA space pirate in these parts considered himself lucky to obtain a C-class suit, much less an upgraded B.
+n \n\nNo, space pirates would never have engaged a United Human Alliance 14-suit patrol.
+nvl clear
+n \n\n\n\nThe rebellion had already spread this far...
+nvl clear
+cR "Groups A and C, institute quarter-shell formations.  I want group B playing shortstop between the two.{w=1}  Keep their close combat units at arms-"
+play Ghostpocalypse_7_Master
+e "So you're the captain of this merry little band?{w=1}  Hope we didn't catch you sleeping!"
+//play sound "G_ADX_1880.wav"
+e "You're no match for me!  I'll make the UHA will pay for what they did!"
+n It was one of modified B-A models, curse the stars it was coming in fast.
+sfx laser_rifle
+scene cockpit2Space
+n \nNot even attempting to dodge my attack?{w=1}  Who is this guy?
+n \nWhatever was driving this man to kill, it far exceeded my own.
+nvl clear
+//play sound "G_ADX_1855.wav"
+e "Come on, boy!{w=1}  Is this the best you can do?"
+vpunch
+n \nRammed at max speed, both my unit and my own senses glazed.  My head was spinning as I reacted on instinct alone.
+n \nFirst, get this guy off me!
+//#play sound clamp
+n \nWhat?{w=1}  A...grappler arm?!
+n \nSuch an outdated piece of equipment had been deemed too impractical for real combat situations...{w=1}had just clamped down on my suit's left shoulder.{w=1}  I'm trapped!?
+nvl clear
+//play sound "G_ADX_1858.wav"  # You wanna dance?
+e "You wanna dance?"
+e "Bet you never fought against one of these in the simulators!"
+n \n\nMy maneuverability was killed.  We were glued together in close-quarter combat.
+n \nMy left arm was jammed and my opponent's modified laser blade was a decade more advanced then my own.
+n \nIt was not an enviable position to be in.
+nvl clear
+e "Did you ever wonder what the Alliance is doing with an outpost this deep in Azorus?
+e "You have no idea, do you?"
+cR "It was created to rid the sector of scum like you!"
+n His blade went down in a wide arc.{w=1}  I had seen it coming.
+n \nInstead of parrying the blow I took the chance in evading it.{w=1}  Considering my situation it stands to question how I could do so.
+n \nThe answer lies at the inherit disadvantage of the grappler claw in MCU-to-MCU combat.
+n \nI slammed my rear boosters closing the little distance that seperated us, forcing his attack to miss and leave the entire inner half of his body exposed.
+nvl clear
+cR "Die, rebel!"
+n \n\n\nWith a clean cut I freed my mech from the claw and quickly retreated before my opponent had time to react.
+nvl clear
+scene cockpitCombat
+//play sound "G_ADX_1862.wav"
+e "Boy's good!"
+//#e"I'm Impressed!  Not bad!"
+e "You sure had potential, a shame you have to die though."
+sfx laser_rifle
+n \nAt mid-range, the edge was mine.{w=1}  This opponent had good reactions, but his mind seemed elsewhere.  And it takes more then just instincts to win a battle.
+n \n...What was his unit holding in it's left hand?
+n \n\nWas that a...{w=1}detonation device?
+nvl clear
+e "Looks like we're dying together.{w=1}  I get to see my little girl again and you get to pay for the evils you aligned with!"
+n \n\nThat machine was approaching too fast.  I hadn't noticed before,{w=1} but the reason for the unit's reduced performance was probably due to an oversized cargo hold.
+n \nThat being said, was I really going to die here?!
+n \n\nI...{w=1}have many regrets.
+nvl clear
+show Gale_face x=50 y=174
+//# stop music
+sfx heavy_pews
+c2 "Yo."
+//play sound "G_ADX_1868.wav"
+hpunch
+e "Annah!"
+hpunch
+play Babylon
+n \n\n\nThe modified mobile unit exploded with a force that shook my entire hull.{w=1}  If he had been any closer, I would have been debris.
+nvl clear
+c2 "No need to thank me,{w=1} a simple promotion and pay increase will do!"
+cR "I'll put in a good word with the Commander when we reach the station, how about that?"
+hide Gale_face Gale_faceWorried
+//show Gale_faceWorried x=50 y=174
+c2 "With Sheiletta?{w=1} *shudders*{w=1} Her icy stare is enough for me to join the rebels!"
+scene cockpit2Space
+cR "The rebels..."
+t That man had fought and died with a conviction that trumped mine a hundred times over.{w=1}  What could have driven him so?
+hide Gale_faceWorried Gale_face
+//show Gale_face x=50 y=174
+jump first_op_done.txt

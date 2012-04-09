@@ -1,0 +1,163 @@
+nvl clear
+cR "What standard would that set for my troops if got into drunken brawls?{w=1}  You know me better then that, Commander."
+Sc "Y-yes, well..."
+cR "Forgive me if I am speaking out of place, but I must ask you to refrain from drinking so much.{w=1}  Not only is it unprofessional, it's dangerous to your health."
+Sc "So...I was really out of it, then..."
+cR "Yes, I found you in the hangar bay and helped you back to your room."
+n \n\n\n\n\nI think I was able to diffuse her anger.
+n \nShe wasn't a woman to show emotions, but I was the sole exception.
+n \nMaybe it's wrong to take a bit of pride in that.
+nvl clear
+hide sheilettaWorried sheiletta
+//show sheiletta x=30 y=0
+Sc "...Captain Rousseau, my recent course of actions has made it apparent that I am...{w=1}unfit to command.
+Sc After this ordeal is over I will send my letter of resignation to the Capital."
+cR "You don't mean that!{w=1}  You've done nothing to fail the Alliance!"
+Sc "I have failed my personal standards.{w=1}  Please...do not speak of this matter any further."
+n \n\n\n\nShe was a horrible woman to reason with.
+n \nThe person she has always judged harshest is herself.
+n \nEveryone makes mistakes-being overly hard on yourself doesn't do anyone any good.
+n \nI really ought to take my own advice one of these days...
+nvl clear
+cR "Commander I can't-"
+Sc "According to the video footage of the main hallways and the security personnel assignments, our assassins have likely infiltrated their ranks."
+cR "Assassins?{w=1}  You think there are others involved?"
+Sc "I think we ought to consider our security compromised.{w=1}  Over half of them were newly recruited...I'll have the head of the incompetent idiot who authorized this!"
+cR "If that's true our only option is to strike before they do."
+Sc "Go and gather your troops, Captain."
+cR "What about you?"
+Sc "I shall perform my duties as the Commanding Officer."
+cR "Just...be careful."
+hide sheiletta
+scene station_inside
+n \n\n\n\nI had no idea what she was planning.
+n \nMy orders were to gather my company as inconspicuously as possible.
+n \nWhile it might be hard to believe, I have discussed with them what to do under such a situation in the past.
+n \nCall it being paranoid, but one can never prepare enough in my opinion.
+n \nI picked up my radio.
+nvl clear
+play tenhut
+scene dockingbay
+cR "Captain speaking.{w=1}  Questionable materials found inside the cockpit of Mech number 5, would the pilot please report to the docking bay for questioning."
+n \n\n\n\nAll my pilots know whose Mech that is.
+n \nMine.{w=1}
+n \nThe rest of the order detailed 'prepare firearms' and 'orders given at location'.
+n \nI did not need to wait long for them to arrive.
+n \nSheran walked the perimeter looking for any unwelcomed faculty.
+nvl clear
+'Sheran' "This area is secured, Captain."
+cR "Thank you.{w=1}  Troops, please secure your service firearms from your MCUs."
+n \n\n\n\nWhile their faces showed uncertainty, they did as I said.
+n \nThey were good soldiers.
+n \nWhile your average MCU pilot these days rarely touches a gun, all Angelus divisions are trained in basic riflemanship.
+n \nThis may be a time when those extra lessons came in handy.
+n \nI for one hoped they wouldn't be necessary.
+nvl clear
+cR "As you all know Rebel presence in this sector is far greater then any of us could have anticipated.
+cR We all believed this was going to be a routine patrol run through a few backspace Alliance safe zones."
+cR "Now I have reason to believe that many of the security personnel on this station are members of the Rebellion.
+cR While I hope I am wrong, I must ask each of you to prepare for the very worst."
+'Troops' "Sir yes sir!"
+n \n\n\n\nI noticed two members absent.
+n \nNaomi wouldn't know the secret order.
+n \nBut Gales would.
+n \nI hope he's just off being stupid somewhere.
+n \nThe station's intercom sounded.
+nvl clear
+'Intercom' "All security personnel report to the main hall at once!  This is not a drill!{w=1}  Repeat, all security personnel report to the main hall immediately!"
+n \n\n\n\nMy teeth started to grind without my knowing.
+n \nThat was the Commander's voice sure enough.
+n \nShe should have informed me of her intentions.
+n \nThe doors surrounding the docking bay automatically locked shut.
+n \n I cursed vocally.  She was trying to keep us out of it!
+n \nTime to try out some of those new-age words.
+nvl clear
+cR "Kaemon get in your (@&^#$@ mech and cut through this !@#(!* door!"
+'Kaemon' "Y-yes sir!"
+n \n\n\n\nTo say I was pissed was quite the understatement.
+n \nTo say I was worried was even moreso.
+n \nI barked orders to my troops and made a sprint for the command room as soon as Kaemon tore through the door.
+n \nHorrible scenarios came into my head until-
+nvl clear
+'Intercom' "Let's see...{w=1} I have a station full of hostages and even the daughter of General Daecher.{w=1}  Boys, take care of those 'Angels'."
+n \n\n\n\n\n\n\n\nthey became real.
+nvl clear
+n \n\n\n\nThat voice was familiar.
+n \nI was right outside the command center.
+n \nThe door was open.
+n \nI didn't stop my pace as I slid inside to make myself a smaller target for enemy gunfire.
+n \nBut there were only two women here.
+scene undergroundBase
+nvl clear
+show naomi x=30 y=0
+N "So good of you to join us, Captain."
+play naomifight
+n \n\n\n\n\n\nThe tip of her pistol rested on the back of Sheiletta's head.
+n \nTied and bruised, she lowered her head to avoid my gaze.
+nvl clear
+N "We were just talking about you.{w=1}  The two of us were curious if you'd still think so highly of her after she undergoes our little...readjustment program."
+N "At least until the Alliance complies with our demands, anyway."
+cR "I'll send you straight to hell!"
+N "Your division is about to get butchered, Rousseau.{w=1}  Just like the dogs they are."
+n \n\n\n\n\nI couldn't think clearly.
+n \nNo, I just didn't want to.
+n \nI wanted to kill this monster so badly.
+n \nBut to shoot her was to sentence Sheiletta to death.
+nvl clear
+cR "Kill me in place of my soldiers, please.{w=1}  Just leave Sheiletta out of this!"
+Sc "No Rousseau!  Just...{w=1}forget about me!"
+hide naomi naomiPissed
+//show naomiPissed x=30 y=0
+N "Your attempt at gallantry makes me sick.{w=1}  Oh, but I have a remedy for this!"
+hide naomiPissed naomi
+//show naomi x=30 y=0
+n \n\n\n\n\nNaomi called for Gales on her radio.
+n \nAfter a bit of sweet talk he came rushing on in.
+nvl clear
+hide naomi
+show naomi x=100 y=0
+show gales x=-100 y=0
+c2 "Hey babe!  Up for anoth..."
+hide gales
+show galesWorried x=-90 y=0
+hide naomi
+show naomi x=110 y=0
+N "You shoot this pathetic excuse for a man, Rousseau, and I'll let your precious Commander and troops leave.
+N I guarantee their safety out of this system:{w=1} you can stand there with your gun at me to assure that I keep my word."
+cR "And if I refuse?"
+N "Otherwise, I gas the main hall which all your troops are currently trapped in and let a few of our more...{w=1}vengeful members deal with them."
+N "The choice is yours."
+n \n\n\nThis evil, evil woman.
+n \nHow can I...
+n \nHow can I decide who lives or who dies?
+n \nSure, a leader must make horrible decisions at times but...
+n \nNot like this.
+n \nNot like this.
+nvl clear
+hide naomi
+hide galesWorried
+show galesWorried x=30 y=0
+c2 "Oi buddy, it's my fault for this crapup.{w=1}  I got Naomi security clearance and access to the central control rooms.  I deserve...{w=1}to die.
+c2 I won't sit by and see our friends killed by my stupidity!"
+Sc "You can't kill him Rousseau, for your sake!{w=1}  If you...if you murder your own friend in cold blood...{w=1}you'll never forgive yourself!"
+c2 "Heard from the others about what happened last night.{w=1}  Takes a heck of a good friend not to want to kick my drunken ass after what I did."
+cR "..trust me, I wanted to.  I wanted..."
+c2 "You're a better man then I am Rousseau, now give me the chance to save the day for once wouldya?"
+hide galesWorried
+show naomiPissed x=30 y=0
+N "Shut this idiot up or I'll kill you all for wasting my time!"
+n \nThis situation was horrible.
+n \nNaomi was using Sheiletta's body as cover with a pistol at the back of the Commander's head.
+n \nI'm not sure how good a shot I am.
+nvl clear
+n \nNaomi's 'deal' went like this:
+n \nIf I...{w=1} if I shoot Gales, Sheiletta and my troops go free and unharmed.
+n \nFor some strange reason I felt that she would uphold her end of this...{w=1}bargain.
+n \nThe other option was to kill Naomi, but Sheiletta wouldn't make it...
+n \nWho knows how many other rebels have infiltrated this base.
+n \nDamn it!{w=1}
+nvl clear
+menu 3 I...
+ending.txt "I'm sorry, Sheiletta (shoot Naomi)"
+ending.txt "I'm sorry, Gales (shoot Gales)"
+not_shooting_anybody.txt "I'm not shooting anybody."

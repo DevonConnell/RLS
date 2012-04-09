@@ -1,0 +1,49 @@
+c2 "Speak of the devil, incoming transmission from the Commander."
+hide Gale_face
+show Gale_face x=50 y=275
+show Sheiletta_face x=50 y=90
+Sc "Captain Rousseau, are you alright?"
+cR "Yes ma'm.  I take it you are aware of our situation?"
+Sc "...Yes.{w=1}  It is regrettable but you must hold a few moments longer before reinforcements arrive."
+cR "Understood.  Captain Rousseau of the 15th-"
+//play sound "G_ADX_1041.wav"
+hide Sheiletta_face Sheiletta_faceWorried
+//show Sheiletta_faceWorried x=50 y=90
+Sc "I am counting on you.{w=1}  Don't die out there, Rousseau."
+hide Sheiletta_faceWorried
+hide Gale_face
+show Gale_face x=50 y=174
+t -transmission out-
+c2 "Sheiletta and Rousseau, sittin' in a tree-"
+cR "Shut it.{w=1}  We've got work to do."
+hide Gale_face
+n The battle raged on.
+n \nThree of our comrades wouldn't be seen at the docking bay.{w=1}  We made sure the enemy knew our loss.
+n \nWe were winning if war had any winners, but I still had chills come down my spine. 
+n \nThe reason was that unidentified unit that hadn't moved during the entire fight, silently overseeing the struggle with an apathetic stare.
+nvl clear
+'Sheran' "Our remaining troops total 11,{w=1} two of which are incapable of combat and four that are suffering moderate damage."
+cR "And the rebels?"
+'Sheran' "Six units remaining and capable of combat.{w=1}  Four B-class units, an upgraded model and the unidentified MCU that has yet to engage."
+scene cockpit2Space
+n And that's when I saw it move.
+n \nThere was something familiar about the monster, which was twice as large as the rest of us.
+n \nSomething I heard or read somewhere, something.
+n \n...
+n \nNo, could they have perfected the Progenitor Drive?!
+nvl clear
+scene cockpitCombat
+show Gale_face x=50 y=174
+//#play sound "G_ADX_0997.wav" #Gales I won't let you have your way anymore!
+c2 "You see that oversized scrap heap?{w=1}  I'm taking it down!"
+hide Gale_face
+n \n\n\nThe energy trails of our units all started to drift towards the machine as it appeared to charge for an attack.
+nvl clear
+n \n\nDammit I didn't have time to think.
+n \nIf it was the Progenitor Drive, we needed to retreat at once.
+n \nBut if I could get to it before it fired...
+n \nI could insure that at least they'd make it out.
+nvl clear
+menu 2 
+space_branch.txt Retreat
+planet_branch.txt Attack

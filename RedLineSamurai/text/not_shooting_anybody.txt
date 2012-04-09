@@ -1,0 +1,7 @@
+cR "There's got to be another way."
+hide naomiPissed
+show naomiFurious x=30 y=0
+N "Nope."{w=1}
+menu 2 I...
+ending.txt "I'm sorry, Sheiletta (shoot Naomi)"
+ending.txt "I'm sorry, Gales (shoot Gales)"
